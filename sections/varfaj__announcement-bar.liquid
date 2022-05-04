@@ -3,7 +3,7 @@
     {%- if section.settings.link != blank -%}
       <a href="{{ section.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
     {%- endif -%}
-        <p class="announcement-bar__message h5">
+    <p style="color: {{ section.settings.text_color }}" class="announcement-bar__message h5">
           {{ section.settings.announcement | escape }}
           {%- if section.settings.link != blank -%}
             {% render 'icon-arrow' %}
