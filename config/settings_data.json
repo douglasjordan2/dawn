@@ -3,19 +3,6 @@
     "sections": {
       "varfaj__announcement-bar": {
         "type": "varfaj__announcement-bar",
-        "blocks": {
-          "varfaj__announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "varfaj__announcement-bar-0"
-        ],
         "settings": {
           "bg_color": "#9D572C",
           "announcement": "test",
