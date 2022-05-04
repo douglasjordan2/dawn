@@ -4,9 +4,10 @@
       "varfaj__announcement-bar": {
         "type": "varfaj__announcement-bar",
         "settings": {
-          "bg_color": "#9D572C",
-          "announcement": "test",
-          "padding": 16
+          "bg_color": "#9381ff",
+          "announcement": "<div class=\"annFREE PAW PAW WONDER BLENDER SPONGE WITH ALL ORDERS!\"><\/div>",
+          "padding": 16,
+          "link": ""
         }
       },
       "header": {
