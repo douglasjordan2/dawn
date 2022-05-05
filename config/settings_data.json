@@ -4,6 +4,9 @@
     "colors_accent_1": "#ffcab3",
     "colors_accent_2": "#3d8599",
     "colors_text": "#063349",
+    "social_twitter_link": "https:\/\/twitter.com\/Skincallco",
+    "social_facebook_link": "https:\/\/www.facebook.com\/skincall",
+    "social_instagram_link": "https:\/\/www.instagram.com\/skincallco\/",
     "sections": {
       "varfaj__announcement-bar": {
         "type": "varfaj__announcement-bar",
