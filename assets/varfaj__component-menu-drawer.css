@@ -39,16 +39,19 @@
 
 .menu-drawer__content ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-drawer__content ul li {
   display: block;
   width: 100%;
   padding: 20px;
-  border: 2px solid red;
+  border-bottom: 1px solid lightgray;
 }
 
 .menu-drawer__content ul li a {
   text-decoration: none;
   text-transform: uppercase;
+  color: rgba(var(--color-foreground));
 }
