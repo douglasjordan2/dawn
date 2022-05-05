@@ -1,7 +1,7 @@
-openDrawer() {
+function openDrawer() {
   alert()  
 }
 
-closeDrawer() {
+function closeDrawer() {
 
 }
