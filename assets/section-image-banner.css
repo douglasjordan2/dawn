@@ -14,6 +14,7 @@
 
 .banner {
   flex-direction: row;
+  padding-bottom: 50%;
   height: 0;
   width: 100%;
 }
