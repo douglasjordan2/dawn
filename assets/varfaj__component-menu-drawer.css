@@ -11,11 +11,20 @@
   left: -100vw;
   width: 100vw;
   height: 100vh;
-  background-color: white;
   z-index: 1000;
   transition: left 0.3s linear;
 }
 
 .menu-drawer.active {
   left: 0;
+}
+
+.menu-drawer__content {
+  background-color: white;
+  width: 75%;
+}
+
+.menu-drawer__close {
+  background-color: rgba(0,0,0,0.8);
+  width: 25%;
 }
