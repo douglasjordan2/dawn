@@ -1773,6 +1773,7 @@ input[type='checkbox'] {
   grid-area: icons;
   justify-self: end;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header__icon {
