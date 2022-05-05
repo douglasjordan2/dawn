@@ -17,7 +17,7 @@
 <noscript>{{ 'disclosure.css' | asset_url | stylesheet_tag }}</noscript>
 <style>
   .footer {
-    color: white !important;
+    color: {{ section.settings.text_color }} !important;
   }
 </style>
 <footer class="footer color-{{ section.settings.color_scheme }}">
