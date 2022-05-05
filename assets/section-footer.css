@@ -436,6 +436,10 @@ footer details[open] summary ~ * {
   line-height: 1.5;
 }
 
+.footer-block__details-content li a {
+  line-height: 1;
+}
+
 .footer-block__details-content li:first-child .link {
   padding-top: 3rem;
 }
