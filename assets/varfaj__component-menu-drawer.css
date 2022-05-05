@@ -47,7 +47,8 @@
   display: block;
   width: 100%;
   padding: 20px;
-  border: 2px solid red;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 .menu-drawer__content ul li a {
