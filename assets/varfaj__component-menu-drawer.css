@@ -50,6 +50,10 @@
   border-bottom: 1px solid lightgray;
 }
 
+.menu-drawer__content .menu-drawer__account-link {
+  padding: 40px;
+}
+
 .menu-drawer__content ul li a {
   text-decoration: none;
   text-transform: uppercase;
