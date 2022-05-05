@@ -240,6 +240,9 @@
 
 .splide__pagination__page.is-active:before {
     background: red;
+    content: " ";
+    height: 8px;
+    width: 8px;
 }
 
 .splide__pagination__page:hover {
