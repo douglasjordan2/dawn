@@ -166,7 +166,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 749px) {
   .footer-block__heading {
     font-size: 20px;
     text-align: left;
