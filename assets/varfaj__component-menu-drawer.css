@@ -24,6 +24,7 @@
   background-color: white;
   width: 75%;
   height: 100%;
+  box-shadow: 0 0 0 9999px #000000b0;
 }
 
 .menu-drawer__close {
