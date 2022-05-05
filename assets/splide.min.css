@@ -220,6 +220,7 @@
 
 .splide__pagination__page {
     background: 0 0;
+    background-color: transparent;
     border: 2px solid black;
     border-radius: 50%;
     display: inline-block;
