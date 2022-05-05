@@ -179,10 +179,6 @@
   display: none;
 }
 
-.footer__list-social.list-social:only-child {
-  justify-content: flex-start;
-}
-
 .footer__list-social .list-social__item--placeholder:not(:only-child) {
   display: none;
 }
