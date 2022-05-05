@@ -8,8 +8,8 @@
   border: 2px solid red;
   position: fixed;
   top: 0;
-  left: -80vw;
-  width: 80vw;
+  left: -100vw;
+  width: 100vw;
   height: 100vh;
   background-color: white;
   z-index: 1000;
