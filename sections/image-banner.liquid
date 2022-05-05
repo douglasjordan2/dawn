@@ -18,7 +18,8 @@
       {% for block in section.blocks %}
         <li class="splide__slide">
           <a href="{{ block.settings.link }}">
-            <div id="Banner-{{ section.id }}" class="banner">
+            {% assign aspect_ratio = block.settings.image.height | divide_by: block.settings.image.width %} 
+            <div id="Banner-{{ section.id }}" class="banner" style="padding-bottom: {{ aspect_ratio }}%">
               {%- if block.settings.image != blank -%}
                 <img srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | img_url: '375x' }} 375w,{%- endif -%}
                   {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | img_url: '750x' }} 750w,{%- endif -%}
