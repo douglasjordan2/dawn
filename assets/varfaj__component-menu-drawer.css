@@ -39,16 +39,13 @@
 
 .menu-drawer__content ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .menu-drawer__content ul li {
   display: block;
   width: 100%;
   padding: 20px;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
+  border: 2px solid red;
 }
 
 .menu-drawer__content ul li a {
