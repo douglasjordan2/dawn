@@ -183,7 +183,7 @@
       </a>
       {%- if section.settings.menu != blank -%}
         <div class="header__icon menu-drawer--open" onclick="openDrawer()">{% render 'icon-hamburger' %}</div>
-        {% render 'varfaj__menu-drawer', menu: section.settings.menu %}  
+        {% render 'menu-drawer', menu: section.settings.menu %}  
       {%- endif -%}
     </div>
   </header>
