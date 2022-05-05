@@ -1774,6 +1774,11 @@ input[type='checkbox'] {
   justify-self: end;
 }
 
+.header__icon {
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
 .header__icon:not(.header__icon--summary),
 .header__icon span {
   display: flex;
