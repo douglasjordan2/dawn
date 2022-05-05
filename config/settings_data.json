@@ -22,6 +22,13 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "ff51933d-d95b-48a0-9fe1-a99c3005258e": {
+            "type": "text",
+            "settings": {
+              "heading": "Contact Us",
+              "subtext": "<p>hello@skincallco.com<br\/>804-690-3900<br\/>4128 Jacque Street, Richmond VA, 23230<\/p><p><\/p><p>© Skincall 2021<br\/><em>Powerhouse Actives, Delivered.<\/em><\/p>"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -31,18 +38,19 @@
           }
         },
         "block_order": [
+          "ff51933d-d95b-48a0-9fe1-a99c3005258e",
           "footer-0"
         ],
         "settings": {
           "color_scheme": "background-1",
           "bg_color": "#3d8599",
           "text_color": "#ffffff",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Sign up to our emails",
-          "show_social": false,
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
-          "payment_enable": true
+          "payment_enable": false
         }
       },
       "announcement-bar": {
