@@ -1777,6 +1777,7 @@ input[type='checkbox'] {
 .header__icon {
   margin-left: 20px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .header__icon:not(.header__icon--summary),
@@ -1784,6 +1785,12 @@ input[type='checkbox'] {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 990px) {
+  .header__icon--account {
+    display: none;
+  }
 }
 
 .header__icon span {
