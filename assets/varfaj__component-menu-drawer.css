@@ -47,3 +47,8 @@
   padding: 20px;
   border: 2px solid red;
 }
+
+.menu-drawer__content ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
