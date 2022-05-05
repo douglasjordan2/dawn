@@ -13,6 +13,7 @@
   height: 100vh;
   z-index: 1000;
   transition: left 0.3s linear;
+  display: flex;
 }
 
 .menu-drawer.active {
