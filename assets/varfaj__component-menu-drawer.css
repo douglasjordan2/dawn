@@ -1,3 +1,7 @@
+.menu-drawer--open {
+  font-size: 13px;
+}
+
 .menu-drawer {
   border: 2px solid red;
   position: fixed;
