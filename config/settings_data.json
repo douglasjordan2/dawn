@@ -2,6 +2,7 @@
   "current": {
     "colors_solid_button_labels": "#063349",
     "colors_accent_1": "#ffcab3",
+    "colors_text": "#05334a",
     "sections": {
       "varfaj__announcement-bar": {
         "type": "varfaj__announcement-bar",
