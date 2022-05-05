@@ -233,7 +233,7 @@
 }
 
 .splide__pagination__page.is-active {
-    background: #fff;
+    background: #000;
     transform: scale(1.4);
     z-index: 1
 }
