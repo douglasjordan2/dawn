@@ -31,8 +31,8 @@
 
 @media screen and (min-width: 750px) {
   .footer__content-top {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
   .footer__content-top .grid {
