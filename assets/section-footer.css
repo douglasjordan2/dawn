@@ -439,13 +439,16 @@ footer details[open] summary ~ * {
   line-height: 1;
 }
 
-.footer-block__details-content li {
-  text-align: center;
+.footer-block__details-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (min-width: 750px) {
   .footer-block__details-content {
     margin-bottom: 0;
+    align-items: flex-start;
   }
 
   .footer-block__details-content li:first-child .link {
