@@ -195,11 +195,13 @@
   text-align: center;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (min-width: 749px) {
   .footer__list-social {
     justify-content: flex-start !important;
   }
-  
+}
+
+@media screen and (max-width: 749px) {
   .footer-block__newsletter .newsletter-form__field-wrapper {
     width: 30rem;
   }
