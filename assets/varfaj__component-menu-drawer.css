@@ -13,4 +13,9 @@
   height: 100vh;
   background-color: white;
   z-index: 1000;
+  transition: left 0.3s linear;
+}
+
+.menu-drawer.active {
+  left: 0;
 }
