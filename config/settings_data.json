@@ -1,8 +1,9 @@
 {
   "current": {
-    "colors_solid_button_labels": "#063349",
+    "colors_solid_button_labels": "#05334a",
     "colors_accent_1": "#ffcab3",
-    "colors_text": "#05334a",
+    "colors_accent_2": "#3d8599",
+    "colors_text": "#063349",
     "sections": {
       "varfaj__announcement-bar": {
         "type": "varfaj__announcement-bar",
@@ -57,6 +58,30 @@
           "menu": "main-menu",
           "show_line_separator": true,
           "enable_sticky_header": true
+        }
+      },
+      "varfaj__footer": {
+        "type": "varfaj__footer",
+        "blocks": {
+          "varfaj__footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "varfaj__footer-0"
+        ],
+        "settings": {
+          "color_scheme": "accent-2",
+          "newsletter_enable": true,
+          "newsletter_heading": "Sign up to our emails",
+          "show_social": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
         }
       }
     },
