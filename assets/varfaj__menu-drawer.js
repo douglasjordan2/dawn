@@ -3,5 +3,5 @@ function openDrawer() {
 }
 
 function closeDrawer() {
-  document.querySelector('.menu-drawer').classList.add('active')
+  document.querySelector('.menu-drawer').classList.remove('active')
 }
