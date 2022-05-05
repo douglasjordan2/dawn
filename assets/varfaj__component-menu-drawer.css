@@ -53,5 +53,5 @@
 .menu-drawer__content ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: rgba(var(--color-foreground));
+  color: black;
 }
