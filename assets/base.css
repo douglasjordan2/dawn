@@ -1774,6 +1774,7 @@ input[type='checkbox'] {
   justify-self: end;
   align-items: center;
   justify-content: space-between;
+  width: 110px;
 }
 
 .header__icon {
