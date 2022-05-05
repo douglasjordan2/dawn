@@ -433,6 +433,7 @@ footer details[open] summary ~ * {
 
 .footer-block__details-content {
   margin-bottom: 4rem;
+  line-height: 1.5;
 }
 
 .footer-block__details-content li:first-child .link {
