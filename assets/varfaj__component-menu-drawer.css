@@ -25,7 +25,7 @@
   width: 75%;
   height: 100%;
   box-shadow: none;
-  transition: box-shadow 0.1s 0.2s linear;
+  transition: box-shadow 0.3s 0.3s linear;
 }
 
 .menu-drawer.active .menu-drawer__content {
