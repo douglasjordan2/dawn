@@ -187,6 +187,10 @@
   display: none;
 }
 
+.footer__list-social {
+  justify-content: center;
+}
+
 .footer__list-social svg {
   color: white; 
 }
@@ -196,6 +200,10 @@
 }
 
 @media screen and (max-width: 749px) {
+  .footer__list-social {
+    justify-content: flex-start;
+  }
+  
   .footer-block__newsletter .newsletter-form__field-wrapper {
     width: 30rem;
   }
