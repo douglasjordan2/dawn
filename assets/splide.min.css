@@ -219,8 +219,8 @@
 }
 
 .splide__pagination__page {
-    background: #ccc;
-    border: 0;
+    background: 0 0;
+    border: 2px solid black;
     border-radius: 50%;
     display: inline-block;
     height: 8px;
