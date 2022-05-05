@@ -187,6 +187,10 @@
   display: none;
 }
 
+.footer__list-social svg {
+  color: white; 
+}
+
 .footer-block__newsletter {
   text-align: center;
 }
