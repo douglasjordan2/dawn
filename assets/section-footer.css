@@ -437,6 +437,10 @@ footer details[open] summary ~ * {
   line-height: 1.5;
 }
 
+.footer-block__details-content p {
+  text-align: center;
+}
+
 .footer-block__details-content li a {
   line-height: 1;
 }
@@ -451,6 +455,10 @@ footer details[open] summary ~ * {
   .footer-block__details-content {
     margin-bottom: 0;
     align-items: flex-start;
+  }
+
+  .footer-block__details-content p {
+    text-align: left;
   }
 
   .footer-block__details-content li:first-child .link {
