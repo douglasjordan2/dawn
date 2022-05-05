@@ -3,7 +3,7 @@
     <ul>
       {%- if shop.customer_accounts_enabled -%}
         <li class="menu-drawer__account-link">
-          <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link link--text focus-inset">
+          <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}">
             <span>{{ 'customer.account_fallback' | t }}</span>
           </a>
         </li>
