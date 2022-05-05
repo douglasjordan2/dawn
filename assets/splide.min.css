@@ -224,13 +224,13 @@
     border: 2px solid black;
     border-radius: 50%;
     display: inline-block;
-    height: 8px;
+    height: 16px;
     margin: 3px;
     opacity: .7;
     padding: 0;
     position: relative;
     transition: transform .2s linear;
-    width: 8px
+    width: 16px
 }
 
 .splide__pagination__page.is-active {
@@ -241,6 +241,7 @@
 
 .splide__pagination__page.is-active:before {
     background: red;
+    border-radius: 50%;
     content: " ";
     position: absolute;
     top: 2px;
