@@ -1772,12 +1772,15 @@ input[type='checkbox'] {
   display: flex;
   grid-area: icons;
   justify-self: end;
+  align-items: center;
 }
 
 .header__icon {
   margin-left: 20px;
   text-transform: uppercase;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .header__icon:not(.header__icon--summary),
