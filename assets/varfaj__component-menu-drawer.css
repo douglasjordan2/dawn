@@ -29,7 +29,7 @@
 
 .menu-drawer.active .menu-drawer__content {
   box-shadow: 0 0 0 9999px #000000b0;
-  transition: box-shadow 0.1s 0.3s linear;
+  transition: box-shadow 0.3s 0.2s linear;
 }
 
 .menu-drawer__close {
