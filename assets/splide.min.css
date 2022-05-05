@@ -240,7 +240,7 @@
 }
 
 .splide__pagination__page.is-active:before {
-    background: red;
+    background: #000;
     border-radius: 50%;
     content: " ";
     position: absolute;
