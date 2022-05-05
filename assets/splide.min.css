@@ -175,8 +175,8 @@
 
 .splide__arrow svg {
     fill: #fff;
-    height: 1.2em;
-    width: 1.2em
+    height: 1em;
+    width: 1em
 }
 
 .splide__arrow:hover:not(:disabled) {
