@@ -1,5 +1,7 @@
 .menu-drawer--open {
   font-size: 13px;
+  height: 16px;
+  width: 22px;
 }
 
 .menu-drawer {
