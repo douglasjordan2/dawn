@@ -1,8 +1,12 @@
 <div class="menu-drawer">
   <div class="menu-drawer__content">
-    {% for link in menu.links %}
-      <span>{{ link.title }}</span>
-    {% endfor %}
+    <ul>
+      {% for link in menu.links %}
+        <li>
+          <a href="{{ link.url }}">{{ link.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
   <div class="menu-drawer__close" onclick="closeDrawer()">
     <span>&times;</span>
