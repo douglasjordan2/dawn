@@ -39,6 +39,8 @@
 
 .menu-drawer__content ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-drawer__content ul li {
