@@ -1,11 +1,13 @@
 {
   "current": {
+    "colors_solid_button_labels": "#063349",
+    "colors_accent_1": "#ffcab3",
     "sections": {
       "varfaj__announcement-bar": {
         "type": "varfaj__announcement-bar",
         "settings": {
           "bg_color": "#9381ff",
-          "text_color": "#FFFFFF",
+          "text_color": "#ffffff",
           "announcement": "FREE PAW PAW WONDER BLENDER SPONGE WITH ALL ORDERS!",
           "padding": 16,
           "link": ""
@@ -43,6 +45,16 @@
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
+        }
+      },
+      "varfaj__header": {
+        "type": "varfaj__header",
+        "settings": {
+          "logo_width": 100,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
         }
       }
     },
