@@ -392,13 +392,6 @@
 {% schema %}
 {
   "name": "t:sections.footer.name",
-  "settings": [
-    {
-      "type": "color",
-      "id": "text_color",
-      "label": "Font color" 
-    }
-  ],
   "blocks": [
     {
       "type": "link_list",
@@ -514,6 +507,12 @@
       ],
       "default": "background-1",
       "label": "t:sections.footer.settings.color_scheme.label"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#ffffff"
     },
     {
       "type": "header",
