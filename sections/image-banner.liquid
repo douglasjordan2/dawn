@@ -12,6 +12,9 @@
   {%- endstyle -%}
 {%- endif -%}
 
+<div class="splide">
+  <div class="splide__track">
+    <ul class="splide__list">
 <div id="Banner-{{ section.id }}" class="banner{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank%} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}">
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
@@ -32,6 +35,7 @@
       >
     </div>
   {%- endif -%}
+  {% comment %}
   <div class="banner__content page-width" style="align-items: {{ section.settings.desktop_text_box_position }};">
     <div class="banner__box color-{{ section.settings.color_scheme }}">
       {%- for block in section.blocks -%}
@@ -57,6 +61,7 @@
       {%- endfor -%}
     </div>
   </div>
+  {% endcomment %}
 </div>
 
 {% schema %}
@@ -64,13 +69,6 @@
   "name": "t:sections.image-banner.name",
   "tag": "section",
   "class": "spaced-section spaced-section--full-width",
-  "blocks": [
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "t:sections.image-banner.settings.image.label"
-    }
-  ],
   "settings": [
     {
       "type": "select",
@@ -148,58 +146,18 @@
       ]
     },
     {
-      "type": "text",
-      "name": "t:sections.image-banner.blocks.text.name",
-      "limit": 1,
+      "type": "slide",
+      "name": "Slide",
       "settings": [
         {
-          "type": "text",
-          "id": "text",
-          "default": "Give customers details about the banner image(s) or content on the template.",
-          "label": "t:sections.image-banner.blocks.text.settings.text.label"
-        }
-      ]
-    },
-    {
-      "type": "buttons",
-      "name": "t:sections.image-banner.blocks.buttons.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "button_label_1",
-          "default": "Button label",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
-          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
         },
         {
           "type": "url",
-          "id": "button_link_1",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary_1",
-          "default": false,
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_1.label"
-        },
-        {
-          "type": "text",
-          "id": "button_label_2",
-          "default": "Button label",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_2.label",
-          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_2.info"
-        },
-        {
-          "type": "url",
-          "id": "button_link_2",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_2.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary_2",
-          "default": false,
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
+          "id": "link",
+          "label": "Link"
         }
       ]
     }
@@ -208,15 +166,6 @@
     {
       "name": "t:sections.image-banner.presets.name",
       "blocks": [
-        {
-          "type": "heading"
-        },
-        {
-          "type": "text"
-        },
-        {
-          "type": "buttons"
-        }
       ]
     }
   ]
