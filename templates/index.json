@@ -3,11 +3,18 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "disabled": true,
+        "72bc27e0-1a6d-4202-8504-a82cf72bc6cc": {
+          "type": "slide",
           "settings": {
-            "heading": "Talk about your brand"
+            "image": "shopify:\/\/shop_images\/vit-c-banner-update-1651169022679.webp",
+            "link": ""
+          }
+        },
+        "ec398f52-61f5-461c-995b-a33fe6ec3b3e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/daily-triple-banner1x-1645541575463.webp",
+            "link": ""
           }
         },
         "96d9fce9-0932-4bfb-b5ea-323cf0824ac1": {
@@ -19,7 +26,8 @@
         }
       },
       "block_order": [
-        "heading",
+        "72bc27e0-1a6d-4202-8504-a82cf72bc6cc",
+        "ec398f52-61f5-461c-995b-a33fe6ec3b3e",
         "96d9fce9-0932-4bfb-b5ea-323cf0824ac1"
       ],
       "settings": {
