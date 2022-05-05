@@ -1,6 +1,14 @@
 <div class="menu-drawer active">
   <div class="menu-drawer__content">
     <ul>
+      {%- if shop.customer_accounts_enabled -%}
+        <li class="menu-drawer__account-link">
+          <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link link--text focus-inset">
+            <span>{{ 'customer.account_fallback' | t }}</span>
+          </a>
+        </li>
+      {%- endif -%}
+
       {% for link in menu.links %}
         <li>
           <a href="{{ link.url }}">{{ link.title }}</a>
