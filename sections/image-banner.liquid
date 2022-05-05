@@ -46,7 +46,12 @@
 </div>
 
 <script>
-  new Splide('.splide').mount();
+  new Splide('.splide').mount({
+    type: "loop",
+    perPage: 1,
+    arrows: true,
+    pagination: true
+  });
 </script>
 
 {% schema %}
