@@ -9,6 +9,10 @@
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 
 <style>
+  .header {
+    display: flex;
+  }
+
   header-drawer {
     justify-self: start;
     margin-left: -1.2rem;
@@ -314,9 +318,7 @@
     <div class="header__icons">
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link link--text focus-inset">
-          <span>
-            {{ 'customer.account_fallback' | t }}
-          </span>
+          <span>{{ 'customer.account_fallback' | t }}</span>
         </a>
       {%- endif -%}
 
