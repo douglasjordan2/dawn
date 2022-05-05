@@ -15,6 +15,15 @@
   display: flex;
 }
 
+@media screen and (min-width: 990px) {
+  .menu-drawer--open {
+    display: none;
+  }
+  .menu-drawer {
+    display: none;
+  }
+}
+
 .menu-drawer.active {
   left: 0;
 }
