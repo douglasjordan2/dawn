@@ -17,10 +17,10 @@
 
 @media screen and (min-width: 990px) {
   .menu-drawer--open {
-    display: none;
+    display: none !important;
   }
   .menu-drawer {
-    display: none;
+    display: none !important;
   }
 }
 
