@@ -40,3 +40,10 @@
 .menu-drawer__content ul {
   list-style-type: none;
 }
+
+.menu-drawer__content ul li {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid red;
+}
