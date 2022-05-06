@@ -220,6 +220,12 @@
   }
 }
 
+@media screen and (min-width: 1090px) {
+  .card-wrapper a {
+    height: 420px;
+  }
+}
+
 .card-wrapper:focus-within .card {
   box-shadow: none;
 }
