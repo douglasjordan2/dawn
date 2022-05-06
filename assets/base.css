@@ -2063,3 +2063,10 @@ details-disclosure > details {
     overflow: auto;
   }
 }
+
+.card__atc {
+  width: 100%;
+  border-radius: 50px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
