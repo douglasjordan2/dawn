@@ -188,6 +188,8 @@
 
 .card-information__wrapper > .price {
   color: rgb(var(--color-foreground));
+  display: flex;
+  justify-content: center;
 }
 
 .card-information__wrapper > *:not(.visually-hidden:first-child) + * {
