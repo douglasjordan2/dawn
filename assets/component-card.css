@@ -206,6 +206,9 @@
   display: block;
   position: relative;
   text-decoration: none;
+}
+
+.card-wrapper a {
   height: 450px;
 }
 
