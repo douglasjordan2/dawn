@@ -10,6 +10,8 @@
 
 .collection p {
   line-height: 27px;
+  font-size: 18px;
+  margin-bottom: 37px;
 }
 
 @media screen and (max-width: 749px) {
