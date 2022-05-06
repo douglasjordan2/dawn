@@ -40,10 +40,10 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "collection": "",
+        "title": "Created By You, For You",
+        "collection": "frontpage",
         "products_to_show": 4,
-        "show_view_all": true,
+        "show_view_all": false,
         "swipe_on_mobile": false,
         "image_ratio": "adapt",
         "show_secondary_image": false,
