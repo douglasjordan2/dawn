@@ -94,10 +94,12 @@
 @media screen and (min-width: 990px) {
   .image-with-text__grid .image-with-text__content {
     padding-right: 0 !important;
+    padding-left: 2rem;
   }
 
   .image-with-text__grid--reverse .image-with-text__content {
     padding-left: 0 !important;
+    padding-right: 2rem !important;
   }
 
   .image-with-text__content {
