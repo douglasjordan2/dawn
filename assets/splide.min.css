@@ -235,6 +235,7 @@
 
 .splide__pagination__page.is-active {
     padding: 1px;
+    transform: scale(1.4);
     z-index: 1
 }
 
