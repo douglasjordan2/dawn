@@ -208,6 +208,12 @@
   text-decoration: none;
 }
 
+@media screen and (min-width: 990px) {
+  .card-wrapper a {
+    height: 450px;
+  }
+}
+  
 .card-wrapper:focus-within .card {
   box-shadow: none;
 }
