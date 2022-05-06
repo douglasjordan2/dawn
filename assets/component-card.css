@@ -209,12 +209,16 @@
 }
 
 .card-wrapper .global__atc {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 990px) {
   .card-wrapper a {
     height: 380px;
+  }
+
+  .card-wrapper .global__atc {
+    margin-top: 0; 
   }
 }
   
