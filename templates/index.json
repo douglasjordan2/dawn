@@ -41,6 +41,7 @@
       "type": "featured-collection",
       "settings": {
         "bg_color": "#9381ff",
+        "text_color": "#fff",
         "title": "Created By You, For You",
         "subtitle": "Our products are clinically formulated, dermatologist recommended, skincare lover approved, and most importantly, decided by you. We take your requests, opinions, and feedback to develop products that you actually want. Not ones the internet tells you you MUST have. Together we can co-create products for results you can see and feel.",
         "collection": "frontpage",
@@ -59,20 +60,20 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "A Must Have Bundle"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Glow into Spring with brighter, hydrated skin. Get our Silks Triple Lipid Cream and 15% Vitamin C serum together for $89 (a $108 value)!<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/glow-duo"
           }
         }
       },
@@ -82,15 +83,52 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/img_5914-copy-1645630988596.webp",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
+      }
+    },
+    "1651843958de980697": {
+      "type": "image-with-text",
+      "blocks": {
+        "1651843958a8f16645-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "It started With An App"
+          }
+        },
+        "1651843958a8f16645-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Well, it really started with the discovery that the same product could be put into different packages and sold for triple the price, just by putting a certain brand name on it. Isn't that crazy? We've been on a mission ever since to help our community of beauty lovers find high quality, efficacious products that won't break the bank.<\/p><p><\/p><p>The Brandefy App is full of real, comparative reviews of cult favorite beauty products, from our community.<\/p>"
+          }
+        },
+        "1651843958a8f16645-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651843958a8f16645-0",
+        "1651843958a8f16645-1",
+        "1651843958a8f16645-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/brandefy-phones-copy-1645542159803.webp",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
       }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "1651843958de980697"
   ]
 }
