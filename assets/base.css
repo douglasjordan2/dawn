@@ -998,7 +998,7 @@ summary::-webkit-details-marker {
   background-color: rgba(var(--color-foreground), 0.1);
   position: relative;
   overflow: hidden;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .media--transparent {
