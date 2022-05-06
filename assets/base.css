@@ -2064,12 +2064,19 @@ details-disclosure > details {
   }
 }
 
-.global__atc {
-  width: 100%;
+.global__button {
   border-radius: 50px;
   padding-top: 11px;
   padding-bottom: 11px;
   border: 2px solid rgba(var(--color-foreground));
   color: rgba(var(--color-foreground));
   background-color: rgb(var(--color-base-accent-1));
+}
+
+.global__button--full {
+  width: 100%;
+}
+
+.global__button--half {
+  width: 50%;
 }
