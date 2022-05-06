@@ -206,6 +206,7 @@
   display: block;
   position: relative;
   text-decoration: none;
+  height: 450px;
 }
 
 .card-wrapper:focus-within .card {
