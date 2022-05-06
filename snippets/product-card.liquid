@@ -97,5 +97,12 @@
         {% render 'price', product: product_card_product, price_class: '' %}
       </div>
     </div>
+    <button>
+      {%- if product.selected_or_first_available_variant.available -%}
+        {{ 'products.product.add_to_cart' | t }}
+      {%- else -%}
+        {{ 'products.product.sold_out' | t }}
+      {%- endif -%}
+    </button>
   </a>
 </div>
