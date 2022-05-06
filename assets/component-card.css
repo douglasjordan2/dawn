@@ -175,6 +175,7 @@
 .card-information__text {
   display: block;
   padding-right: 1.2rem;
+  text-align: center;
 }
 
 .card-information__wrapper {
