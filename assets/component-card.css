@@ -208,6 +208,10 @@
   text-decoration: none;
 }
 
+.card-wrapper .global__atc {
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 990px) {
   .card-wrapper a {
     height: 380px;
