@@ -4,6 +4,7 @@
 
 .collection .title {
   font-size: 32px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 749px) {
