@@ -99,11 +99,11 @@
     </div>
   </a>
   {%- if product_card_product.selected_or_first_available_variant.available -%}
-    <button class="global__button" onclick="productCardATC({{ product_card_product.selected_or_first_available_variant.id }})">
+    <button class="global__button global__button--full" onclick="productCardATC({{ product_card_product.selected_or_first_available_variant.id }})">
       {{ 'products.product.add_to_cart' | t }}
     </button>
   {%- else -%}
-    <button class="global__button" disabled>
+    <button class="global__button global__button--full" disabled>
       {{ 'products.product.sold_out' | t }}
     </button>
   {%- endif -%}
