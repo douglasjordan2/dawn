@@ -97,12 +97,14 @@
         {% render 'price', product: product_card_product, price_class: '' %}
       </div>
     </div>
-    <button>
-      {%- if product_card_product.selected_or_first_available_variant.available -%}
+    {%- if product_card_product.selected_or_first_available_variant.available -%}
+      <button class="card__atc" onclick="productCardATC({{ product_card_product.selected_or_first_available_variant.id }})">
         {{ 'products.product.add_to_cart' | t }}
-      {%- else -%}
+      </button>
+    {%- else -%}
+      <button class="card__atc" disabled>
         {{ 'products.product.sold_out' | t }}
-      {%- endif -%}
-    </button>
+      </button>
+    {%- endif -%}
   </a>
 </div>
