@@ -98,7 +98,7 @@
       </div>
     </div>
     <button>
-      {%- if product.selected_or_first_available_variant.available -%}
+      {%- if product_card_product.selected_or_first_available_variant.available -%}
         {{ 'products.product.add_to_cart' | t }}
       {%- else -%}
         {{ 'products.product.sold_out' | t }}
