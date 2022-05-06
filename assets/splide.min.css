@@ -235,7 +235,7 @@
 
 .splide__pagination__page.is-active {
     z-index: 1;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 .splide__pagination__page.is-active:before {
