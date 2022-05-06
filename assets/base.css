@@ -2069,4 +2069,5 @@ details-disclosure > details {
   border-radius: 50px;
   padding-top: 11px;
   padding-bottom: 11px;
+  color: rgba(var(--color-foreground));
 }
