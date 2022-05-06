@@ -98,7 +98,7 @@
       </div>
     </div>
     {%- if product_card_product.selected_or_first_available_variant.available -%}
-    <button class="card__atc" onclick="e => e.preventDefault(), productCardATC({{ product_card_product.selected_or_first_available_variant.id }})">
+    <button class="card__atc" onclick="e => e.preventDefault(), e.stopPropagation(),  productCardATC({{ product_card_product.selected_or_first_available_variant.id }})">
         {{ 'products.product.add_to_cart' | t }}
       </button>
     {%- else -%}
