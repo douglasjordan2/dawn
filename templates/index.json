@@ -40,7 +40,9 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
+        "bg_color": "#9381ff",
         "title": "Created By You, For You",
+        "subtitle": "Our products are clinically formulated, dermatologist recommended, skincare lover approved, and most importantly, decided by you. We take your requests, opinions, and feedback to develop products that you actually want. Not ones the internet tells you you MUST have. Together we can co-create products for results you can see and feel.",
         "collection": "frontpage",
         "products_to_show": 4,
         "show_view_all": false,
