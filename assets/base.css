@@ -2071,4 +2071,5 @@ details-disclosure > details {
   padding-bottom: 11px;
   border: 2px solid rgba(var(--color-foreground));
   color: rgba(var(--color-foreground));
+  background-color: rgb(var(--color-base-accent-1));
 }
