@@ -7,6 +7,10 @@
   font-weight: 700;
 }
 
+.collection p {
+  line-height: 27px;
+}
+
 @media screen and (max-width: 749px) {
   .collection .grid__item:only-child {
     flex: 0 0 100%;
