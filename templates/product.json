@@ -24,9 +24,15 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
+        "68d9f741-2c1c-447a-810c-759254567f21": {
+          "type": "tabs",
           "settings": {
+            "tab1_title": "Details",
+            "tab1_content": "<p>A high-powered antioxidant serum that combines 15% pure vitamin C, 0.5% ferulic acid and vitamin E provides environmental protection while reducing oxidative damage that can lead to signs of aging and a compromised skin barrier. This serum helps improve the appearance of fine lines and wrinkles, helps with loss of firmness, and brightens the skin's complexion. Can also be helpful in reducing the appearance of dark spots and hyperpigmentation.<\/p><p> <\/p><p>100 days, 100% guaranteed. *Compare to SkinCeuticals C E Ferulic<\/p><p>Custom formulated in New Jersey, USA.<\/p>",
+            "tab2_title": "Ingredients",
+            "tab2_content": "<p><strong>15% L-ascorbic acid | 0.5% Ferulic acid | Tocopheryl acetate <\/strong><\/p><p>Water, Ethoxydiglycol, Propanediol, Ascorbic Acid, Glycerin, Polyglyceryl-10 Laurate, Ferulic Acid, Sodium Hydroxide, Tocopheryl Acetate, Pentylene Glycol, Caprylyl Glycol, Ethylhexylglycerin, Malonic Acid, Vanillin.<\/p>",
+            "tab3_title": "How to Layer",
+            "tab3_content": "<p><strong>Directions<\/strong>:<br\/>Apply to clean skin then massage onto face, neck and chest area in upwards motions. Do not rinse. Store in a cool, dark place.<br\/><br\/><strong>For brighter, protected skin:<\/strong>Use in the AM after cleansing and\/or toning followed by your other fave serums (like Daily Triple!). Follow with a moisturizer + SPF to protect your skin all day long! Can also be used at night depending on preference.<br\/><br\/><strong>For double the brightening effects, pair with:<\/strong>- Niacinamide<br\/>- Azaleic Acid<br\/>- Kojic Acid<br\/>- Alpha Arbutin<br\/><br\/><strong>Avoid pairing with (if you have sensitive skin):<\/strong>- Retinol<br\/>- AHA's<br\/>- BHA's<\/p>"
           }
         }
       },
@@ -35,11 +41,13 @@
         "price",
         "buy_buttons",
         "description",
-        "share"
+        "68d9f741-2c1c-447a-810c-759254567f21"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "enable_video_looping": false
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "square_image": false
       }
     },
     "product-recommendations": {
