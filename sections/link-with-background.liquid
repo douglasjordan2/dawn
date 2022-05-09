@@ -1,0 +1,52 @@
+<style>
+  .image-with-background {
+    padding: 50px;
+    background-image: {{ section.settings.bg_image }}
+  }
+</style>
+
+<div class="image-with-background">
+  <h3>{{ section.settings.heading }}</h3>
+  <a class="global__button global__button--half" href="{{ section.settings.button_url }}">
+    {{ section.settings.button_text }}
+  </a>
+</div>
+
+{% schema %}
+{
+  "name": "Link with Background",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Link heading",
+      "label": "Link heading"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "default": "Button Text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "default": "/collections/all",
+      "label": "Button URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image with Background",
+      "settings": {
+      }
+    }
+  ]
+}
+{% endschema %}
