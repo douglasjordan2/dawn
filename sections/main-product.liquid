@@ -450,13 +450,13 @@
               <div class="product-tabs">
                 <nav class="product-tabs__nav">
                   <ul>
-                    <li id="tab1-toggle" class="product-tabs__nav-toggle active">
+                    <li onclick="changeProductTab(this)" id="tab1-toggle" class="product-tabs__nav-toggle active">
                       <h4>{{ block.settings.tab1_title }}</h4>
                     </li>
-                    <li id="tab2-toggle" class="product-tabs__nav-toggle">
+                    <li onclick="changeProductTab(this)" id="tab2-toggle" class="product-tabs__nav-toggle">
                       <h4>{{ block.settings.tab2_title }}</h4>
                     </li>
-                    <li id="tab3-toggle" class="product-tabs__nav-toggle">
+                    <li onclick="changeProductTab(this)" id="tab3-toggle" class="product-tabs__nav-toggle">
                       <h4>{{ block.settings.tab3_title }}</h4>
                     </li> 
                   </ul>
