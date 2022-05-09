@@ -1,3 +1,5 @@
-.product-tabs {
-  border: 2px solid red;
+.product-tabs__nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
 }
