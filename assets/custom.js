@@ -15,7 +15,21 @@ function productCardATC(id) {
 }
 
 function changeProductTab(el) {
-  const tabs = document.querySelectorAll('.product-tabs__content .tab-content')
+  document.querySelectorAll('.product-tabs__content .tab-content').forEach(tab = > {
+    const idCheck = el.id.split('-')[0]
 
-  alert()
+    if(tab.id === idCheck) {
+      tab.classList.add('active')
+    } else {
+      if(tab.classList.contains('active')) tab.classList.remove('active')
+    }
+  })
+
+  document.querySelectorAll('.product-tabs__nav-toggle').forEach(toggle => {
+    if(el === toggle) {
+      toggle.classList.add('active')
+    } else {
+      if(toggle.classList.contains('active')) toggle.classList.remove('active')
+    }
+  })
 }
