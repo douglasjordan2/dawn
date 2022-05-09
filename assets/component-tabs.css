@@ -10,7 +10,7 @@
 }
 
 .product-tabs__nav-toggle.active {
-  background-color: var(--color-base-accent-2);
+  background-color: rgb(var(--color-base-accent-2));
   border-radius: 8px;
 }
 
