@@ -12,6 +12,7 @@
 .product-tabs__nav-toggle {
   text-transform: uppercase;
   padding: 12px 20px;
+  cursor: pointer;
 }
 
 .product-tabs__nav-toggle.active {
