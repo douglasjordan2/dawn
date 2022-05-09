@@ -1,8 +1,8 @@
 .product-tabs__nav ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   list-style-type: none;
-  flex-wrap: wrap;
 }
 
 .product-tabs__nav ul li h4 {
@@ -11,6 +11,7 @@
 
 .product-tabs__nav-toggle {
   text-transform: uppercase;
+  padding: 12px 20px;
 }
 
 .product-tabs__nav-toggle.active {
