@@ -4,6 +4,10 @@
   list-style-type: none;
 }
 
+.product-tabs__nav ul li h4 {
+  padding: 0;
+}
+
 .product-tabs__nav-toggle {
   text-transform: uppercase;
   padding: 12px 20px;
