@@ -558,6 +558,17 @@ class VariantSelects extends HTMLElement {
     if (!newMedia) return;
     const parent = newMedia.parentElement;
     parent.prepend(newMedia);
+
+    const newId = newMedia.dataset.mediaId;
+    const newThumb = document.querySelector(`[data-thumb-id="${newId}"]`);
+    const thumbLocate = newThumb["offsetLeft"];
+
+    document.querySelectorAll('.slide-image').forEach(thumb => thumb. classList.remove('active-thumb'));
+    document.querySelector(`[data-thumb-id="${newId}"] > img`).classList.add('active-thumb');
+    const sliderBox = document.querySelector(".product-slider-box");
+    sliderBox.scrollTo({left: thumbLocate});
+    zoom(); 
+
     window.setTimeout(() => { parent.scroll(0, 0) });
   }
 
