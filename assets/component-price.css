@@ -82,6 +82,8 @@
 
 .price-item {
   font-size: 30px;
+  font-family: avenir-next,sans-serif;
+  font-weight: 700; 
 }
 
 .price--on-sale .price-item--regular {
