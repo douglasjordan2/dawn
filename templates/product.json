@@ -19,11 +19,6 @@
             "show_dynamic_checkout": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "68d9f741-2c1c-447a-810c-759254567f21": {
           "type": "tabs",
           "settings": {
@@ -40,7 +35,6 @@
         "title",
         "price",
         "buy_buttons",
-        "description",
         "68d9f741-2c1c-447a-810c-759254567f21"
       ],
       "settings": {
