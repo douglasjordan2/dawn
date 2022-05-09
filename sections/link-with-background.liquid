@@ -1,7 +1,10 @@
 <style>
   .image-with-background {
     padding: 50px;
-    background-image: url("{{ section.settings.bg_image | img_url }}")
+    background-image: url("{{ section.settings.bg_image | img_url }}");
+    width: 100%;
+    height: 100%;
+    background-fit: cover;
   }
 </style>
 
