@@ -80,6 +80,10 @@
   justify-content: center;
 }
 
+.price-item {
+  font-size: 30px;
+}
+
 .price--on-sale .price-item--regular {
   text-decoration: line-through;
   color: rgba(var(--color-foreground), 0.75);
