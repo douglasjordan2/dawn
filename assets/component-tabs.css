@@ -18,3 +18,10 @@
   border-radius: 8px;
 }
 
+.product-tabs__content .tab-content {
+  display: none;
+} 
+
+.product-tabs__content .tab-content.active {
+  display: block;
+}
