@@ -2072,6 +2072,7 @@ details-disclosure > details {
   border: 2px solid rgba(var(--color-foreground));
   color: rgba(var(--color-foreground));
   background-color: rgb(var(--color-base-accent-1));
+  text-transform: uppercase;
 }
 
 .global__button--full {
