@@ -447,29 +447,29 @@
                 </p>
               {%- endif -%}
             {% when 'tabs' %}
-              <div>
-                <nav>
+              <div class="product-tabs">
+                <nav class="product-tabs__nav">
                   <ul>
-                    <li>
+                    <li id="tab1-toggle" class="product-tabs__nav-toggle active">
                       <h4>{{ block.settings.tab1_title }}</h4>
                     </li>
-                    <li>
+                    <li id="tab2-toggle" class="product-tabs__nav-toggle">
                       <h4>{{ block.settings.tab2_title }}</h4>
                     </li>
-                    <li>
+                    <li id="tab3-toggle" class="product-tabs__nav-toggle">
                       <h4>{{ block.settings.tab3_title }}</h4>
                     </li> 
                   </ul>
                 </nav>
 
-                <div>
-                  <p>
+                <div class="product-tabs__content">
+                  <p id="tab1-content" class="active">
                     {{ block.settings.tab1_content }}
                   </p>
-                  <p>
+                  <p id="tab2-content">
                     {{ block.settings.tab2_content }}
                   </p>
-                  <p>
+                  <p id="tab3-content">
                     {{ block.settings.tab3_content }}
                   </p>
                 </div>
