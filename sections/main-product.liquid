@@ -110,7 +110,7 @@
               </li>
             {% endfor %}
           </ul>
-          <div class="button-wrapper {% if product.media.size < 3 %}hidden{% endif %}" >
+          <div class="button-wrapper {% if product.media.size <= 3 %}hidden{% endif %}" >
             <button type="button" class="slider-button slider-button--prev bigger-slider" name="previous" aria-label="{{ 'accessibility.previous_slide' | t }}">{% render 'icon-caret' %}</button>
             <button type="button" class="slider-button slider-button--next bigger-slider" name="next" aria-label="{{ 'accessibility.next_slide' | t }}">{% render 'icon-caret' %}</button>
           </div>
