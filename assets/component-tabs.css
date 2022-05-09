@@ -11,5 +11,6 @@
 
 .product-tabs__nav-toggle.active {
   color: var(--color-base-accent-2);
+  border-radius: 8px;
 }
 
