@@ -2075,6 +2075,10 @@ details-disclosure > details {
   text-transform: uppercase;
 }
 
+.global__button span {
+  font-size: 16px;
+}
+
 .global__button--full {
   width: 100%;
 }
