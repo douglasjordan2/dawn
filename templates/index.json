@@ -41,7 +41,7 @@
       "type": "featured-collection",
       "settings": {
         "bg_color": "#9381ff",
-        "text_color": "#fff",
+        "text_color": "#ffffff",
         "title": "Created By You, For You",
         "subtitle": "Our products are clinically formulated, dermatologist recommended, skincare lover approved, and most importantly, decided by you. We take your requests, opinions, and feedback to develop products that you actually want. Not ones the internet tells you you MUST have. Together we can co-create products for results you can see and feel.",
         "collection": "frontpage",
@@ -73,7 +73,8 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/glow-duo"
+            "button_link": "shopify:\/\/products\/glow-duo",
+            "btn_size": "full"
           }
         }
       },
@@ -108,7 +109,8 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/pages\/about-us"
+            "button_link": "shopify:\/\/pages\/about-us",
+            "btn_size": "full"
           }
         }
       },
@@ -123,12 +125,22 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
+    },
+    "16521011058386626f": {
+      "type": "link-with-background",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/unbridled1080-2-copy-1645539058563.webp",
+        "heading": "Link heading",
+        "button_text": "Button Text",
+        "button_url": "shopify:\/\/collections\/all"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "image_text",
-    "1651843958de980697"
+    "1651843958de980697",
+    "16521011058386626f"
   ]
 }
