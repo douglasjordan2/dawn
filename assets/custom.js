@@ -15,7 +15,7 @@ function productCardATC(id) {
 }
 
 function changeProductTab(el) {
-  document.querySelectorAll('.product-tabs__content .tab-content').forEach(tab = > {
+  document.querySelectorAll('.product-tabs__content .tab-content').forEach(tab => {
     const idCheck = el.id.split('-')[0]
 
     if(tab.id === idCheck) {
