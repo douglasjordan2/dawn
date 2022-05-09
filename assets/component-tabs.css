@@ -3,3 +3,13 @@
   justify-content: space-around;
   list-style-type: none;
 }
+
+.product-tabs__nav-toggle {
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.product-tabs__nav-toggle.active {
+  color: var(--color-base-accent-2);
+}
+
