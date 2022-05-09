@@ -484,13 +484,33 @@ class SliderComponent extends HTMLElement {
     this.pageTotal.textContent = this.totalPages;
   }
 
-  onButtonClick(event) {
+   onButtonClick(event) {
     event.preventDefault();
-    const slideScrollPosition = event.currentTarget.name === 'next' ? this.slider.scrollLeft + this.sliderItems[0].clientWidth : this.slider.scrollLeft - this.sliderItems[0].clientWidth;
-    this.slider.scrollTo({
-      left: slideScrollPosition
-    });
-  }
+
+    if (this.productSlider) {
+      const slideScrollPosition = event.currentTarget.name === 'next' ? this.slider.scrollLeft + (this.slider.clientWidth): this.slider.scrollLeft - (this.slider.clientWidth);
+      this.slider.scrollTo({
+        left: Math.floor(slideScrollPosition)
+      });
+
+      this.currSlide = Math.round(slideScrollPosition / this.slider.clientWidth);
+      if (this.currSlide === 0 ) {
+        this.prevButton.setAttribute('disabled', true);
+      } else {
+        this.prevButton.removeAttribute('disabled');
+      }
+      if (this.currSlide === this.totalPages / 3 ) {
+        this.nextButton.setAttribute('disabled', true);
+      } else {
+       this.nextButton.removeAttribute('disabled');
+      }
+    } else {
+      const slideScrollPosition = event.currentTarget.name === 'next' ? this.slider.scrollLeft + this.sliderLastItem.clientWidth : this.slider.scrollLeft - this.sliderLastItem.clientWidth;
+      this.slider.scrollTo({
+        left: Math.floor(slideScrollPosition)
+      });
+    }
+  } 
 }
 
 customElements.define('slider-component', SliderComponent);
