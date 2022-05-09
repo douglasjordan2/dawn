@@ -130,9 +130,9 @@
       "type": "link-with-background",
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/unbridled1080-2-copy-1645539058563.webp",
-        "heading": "Link heading",
-        "button_text": "Button Text",
-        "button_url": "shopify:\/\/collections\/all"
+        "heading": "Ingredient Library",
+        "button_text": "See More",
+        "button_url": "shopify:\/\/collections"
       }
     }
   },
