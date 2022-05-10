@@ -1,0 +1,68 @@
+<link rel="stylesheet" href="{{ 'section-product-faqs.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-product-faqs.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div id="product-faqs--{{ section.id }}" class="product-faqs">
+  <h3 class="h3">{{ section.settings.heading }}</h3>
+  <ul>
+    {% for block in section.blocks %}
+      <li>
+        <img src="{{ block.settings.icon_img | img_url: 'original' }}">
+        <p>{{ block.settings.icon_description }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<style>
+#product-faqs--{{ section.id }} {
+  background-color: {{ section.settings.bg_color }};
+}
+</style>
+
+{% schema %}
+{
+  "name": "Product FAQs",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "faq_bg_color",
+      "label": "FAQ Item Background Color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq",
+      "name": "FAQ Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question"
+        },
+        {
+          "type": "text",
+          "id": "answer",
+          "label": "Answer"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product FAQs"
+    }
+  ]
+}
+{% endschema %}
