@@ -9,6 +9,10 @@
   font-weight: 700;
 }
 
+.image-with-info-boxes p {
+  font-size: 18px;
+}
+
 .image-with-info-boxes__content {
   display: flex;
   justify-content: space-between;
@@ -30,7 +34,6 @@
 }
 
 .image-with-info-boxes__content-right .info-box p {
-  font-size: 18px;
 }
 
 .image-with-info-boxes__content-left {
