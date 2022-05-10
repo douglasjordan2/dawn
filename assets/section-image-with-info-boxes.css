@@ -29,6 +29,12 @@
   max-width: calc(99% - 420px);
 }
 
+@media(max-width: 1000px) {
+  .image-with-info-boxes__content-right {
+    max-width: 50%;
+  }
+}
+
 .image-with-info-boxes__content-right .info-box {
   border: 2px solid rgb(var(--color-base-text));
   padding: 15px;
