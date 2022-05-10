@@ -54,6 +54,40 @@
         "btn_link": "https:\/\/apps.apple.com\/us\/app\/brandefy-affordable-beauty\/id1367272391"
       }
     },
+    "1652188216e6d48907": {
+      "type": "icon-bar",
+      "blocks": {
+        "98dd9fbc-19ed-4eb2-aacb-e8f29613ced8": {
+          "type": "icon",
+          "settings": {
+            "icon_img": "shopify:\/\/shop_images\/antti-aging-white59-1631720411435.webp",
+            "icon_description": "Improves the appearance of fine lines and loss of firmness"
+          }
+        },
+        "ab836a34-2347-48e1-a043-88350a24e405": {
+          "type": "icon",
+          "settings": {
+            "icon_img": "shopify:\/\/shop_images\/brightening-icon-white67-1638290545985.webp",
+            "icon_description": "Brightens skin's complexion and helps fade dark spots"
+          }
+        },
+        "9a91e37a-9031-4e33-9437-b0dc1c89f48d": {
+          "type": "icon",
+          "settings": {
+            "icon_img": "shopify:\/\/shop_images\/enviro-protection-icon-white68-1638290560591.webp",
+            "icon_description": "Delivers environmental protection and reduces oxidative damage of free radicals"
+          }
+        }
+      },
+      "block_order": [
+        "98dd9fbc-19ed-4eb2-aacb-e8f29613ced8",
+        "ab836a34-2347-48e1-a043-88350a24e405",
+        "9a91e37a-9031-4e33-9437-b0dc1c89f48d"
+      ],
+      "settings": {
+        "bg_color": ""
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -85,6 +119,7 @@
   "order": [
     "main",
     "1652185108d11d70a2",
+    "1652188216e6d48907",
     "product-recommendations",
     "1652185123ce3a7af2"
   ]
