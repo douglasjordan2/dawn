@@ -118,6 +118,14 @@
         "box3_description": "This plant based antioxidant helps to neutralize free radicals which can cause aging effects on the skin. Ferulic acid pairs well with vitamins C and E to boost benefits and stability."
       }
     },
+    "16522236435a4202b4": {
+      "type": "text-with-color-background",
+      "settings": {
+        "bg_color": "#3d8599",
+        "heading": "100 DAYS, 100% GUARANTEE",
+        "sub_heading": "If you don't absolutely love your Brandefy Skincall products, return them within 100 days for a full refund."
+      }
+    },
     "1652185123ce3a7af2": {
       "type": "apps",
       "blocks": {
@@ -142,6 +150,7 @@
     "1652188216e6d48907",
     "product-recommendations",
     "165222042875b796c0",
+    "16522236435a4202b4",
     "1652185123ce3a7af2"
   ]
 }
