@@ -4,6 +4,10 @@
   padding: 50px;
 }
 
+.image-with-info-boxes h4 {
+  font-size: 32px;
+}
+
 .image-with-info-boxes__content {
   display: flex;
   justify-content: space-between;
