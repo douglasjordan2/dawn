@@ -1,0 +1,17 @@
+.image-with-info-boxes {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.image-with-info-boxes__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-with-info-boxes__content-right {
+  width: 49%;
+}
+
+.image-with-info-boxes__content-left {
+  width: 49%;
+}
