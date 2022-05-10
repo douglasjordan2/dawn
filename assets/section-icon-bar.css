@@ -1,5 +1,7 @@
 .icon-bar {
   padding: 50px;
+  max-width: 1140px;
+  width: 100%;
 }
 
 .icon-bar ul {
