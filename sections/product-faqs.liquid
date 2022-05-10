@@ -7,7 +7,7 @@
   <ul>
     {% for block in section.blocks %}
       <li class="faq-item">
-        <button class="faq-accordion-toggle">
+        <button class="faq-accordion-toggle" onclick="productFaqToggle(this)">
           {{ block.settings.question }}
         </button>
         <div class="faq-accordion-content" aria-expanded="false">
