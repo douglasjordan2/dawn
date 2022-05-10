@@ -1,6 +1,7 @@
 .image-with-info-boxes {
   max-width: 1140px;
   margin: auto;
+  padding: 50px;
 }
 
 .image-with-info-boxes__content {
