@@ -82,6 +82,10 @@
     margin-left: 0;
     margin-top: 50px;
   }
+
+  .image-with-info-boxes__content--reverse .image-with-info-boxes__content-left {
+    margin-right: 0;
+  }
 }
 
 .image-with-info-boxes__content-left img {
