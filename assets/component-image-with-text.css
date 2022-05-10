@@ -133,6 +133,8 @@
 
 .image-with-text__heading {
   margin-bottom: 0;
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .image-with-text__text p {
