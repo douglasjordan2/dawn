@@ -1,0 +1,14 @@
+.image-with-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-with-cta h3 {
+  font-size: 32px;
+}
+
+.image-with-cta img {
+  width: 100%;
+  height: auto;
+}
