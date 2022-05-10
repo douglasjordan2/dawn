@@ -40,7 +40,7 @@ function productFaqToggle(el) {
     if(el === itemCheck) {
       item.classList.add('active')
     } else {
-      if(item.classList.contains('active') item.classList.remove('active')
+      if(item.classList.contains('active')) item.classList.remove('active')
     }
   })
 }
