@@ -2,7 +2,7 @@
 
 <noscript>{{ 'section-image-with-cta.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="image-with-cta">
+<div id="image-with-cta--{{ section.id }}" class="image-with-cta">
   <h3>
     {{ section.settings.heading }}
   </h3>
@@ -11,6 +11,12 @@
     <a href="{{ section.settings.btn_link }}">{{ section.settings.btn_text }}</a>
   </button>
 </div>
+
+<style>
+#image-with-cta--{{ section.id }} {
+  background-color: {{ section.settings.bg_color }};
+}
+</style>
 
 {% schema %}
 {
