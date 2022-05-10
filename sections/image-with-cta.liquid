@@ -3,13 +3,15 @@
 <noscript>{{ 'section-image-with-cta.css' | asset_url | stylesheet_tag }}</noscript>
 
 <div id="image-with-cta--{{ section.id }}" class="image-with-cta">
-  <h3>
-    {{ section.settings.heading }}
-  </h3>
-  <img src="{{ section.settings.image | img_url: '520x' }}">
-  <button class="global__button global__button--half">
-    <a href="{{ section.settings.btn_link }}">{{ section.settings.btn_text }}</a>
-  </button>
+  <div class="image-with-cta__content">
+    <h3>
+      {{ section.settings.heading }}
+    </h3>
+    <img src="{{ section.settings.image | img_url: '520x' }}">
+    <button class="global__button global__button--half">
+      <a href="{{ section.settings.btn_link }}">{{ section.settings.btn_text }}</a>
+    </button>
+  </div>
 </div>
 
 <style>
