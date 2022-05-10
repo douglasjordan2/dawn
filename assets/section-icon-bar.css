@@ -30,7 +30,7 @@
 
 @media(max-width: 767px) {
   .icon-bar ul li {
-    width: 80%;
+    width: 100%;
   }
 }
 
