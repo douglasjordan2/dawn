@@ -13,6 +13,7 @@
 .image-with-info-boxes p {
   font-size: 18px;
   line-height: 27px;
+  margin-bottom: 30px;
 }
 
 .image-with-info-boxes__content {
