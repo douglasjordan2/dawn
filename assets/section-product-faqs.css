@@ -6,6 +6,13 @@
 
 .product-faqs ul {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-faqs ul li {
+  width: 49%;
 }
 
 .product-faqs .faq-accordion-toggle {
