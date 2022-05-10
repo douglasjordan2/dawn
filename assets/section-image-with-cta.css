@@ -1,3 +1,8 @@
+.image-with-cta {
+  display: flex;
+  justify-content: center;
+}
+
 .image-with-cta__content {
   display: flex;
   flex-direction: column;
