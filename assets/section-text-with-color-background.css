@@ -4,6 +4,10 @@
   padding: 50px;
 }
 
+.text-with-color-background__content {
+  text-align: center;
+}
+
 .text-with-color-background__content h3 {
   color: inherit; 
 }
