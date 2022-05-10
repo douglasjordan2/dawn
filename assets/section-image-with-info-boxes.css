@@ -8,6 +8,10 @@
   justify-content: space-between;
 }
 
+.image-with-info-boxes__content--reverse {
+  flex-direction: row-reverse;
+}
+
 .image-with-info-boxes__content-right {
   width: 59%;
 }
@@ -22,3 +26,5 @@
   width: 100%;
   object-fit: cover;
 }
+
+
