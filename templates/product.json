@@ -47,10 +47,11 @@
     "1652185108d11d70a2": {
       "type": "image-with-cta",
       "settings": {
-        "bg_color": "",
-        "heading": "",
-        "btn_text": "",
-        "btn_link": ""
+        "bg_color": "#d6eff2",
+        "heading": "Compare To Other Serums We Love",
+        "image": "shopify:\/\/shop_images\/vit-c-spec-1650986969963_1.webp",
+        "btn_text": "VIEW REVIEWS IN THE BRANDEFY APP",
+        "btn_link": "https:\/\/apps.apple.com\/us\/app\/brandefy-affordable-beauty\/id1367272391"
       }
     },
     "product-recommendations": {
