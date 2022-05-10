@@ -19,4 +19,5 @@
 .image-with-cta__content img {
   width: 100%;
   height: auto;
+  margin-bottom: 20px;
 }
