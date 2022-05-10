@@ -1,10 +1,7 @@
-.image-with-cta {
+.image-with-cta__content {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.image-with-cta__content {
   max-width: 1140px;
 }
 
