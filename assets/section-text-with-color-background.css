@@ -1,5 +1,6 @@
-.text-with-color-background__content {
+.text-with-color-background {
   max-width: 1140px;  
+  margin: auto;
   padding: 50px;
 }
 
