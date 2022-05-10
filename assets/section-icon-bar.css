@@ -1,0 +1,14 @@
+.icon-bar {
+  padding: 50px;
+}
+
+.icon-bar ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.icon-bar ul li {
+  width: 32%;
+}
