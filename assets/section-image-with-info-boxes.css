@@ -36,6 +36,11 @@
   border-radius: 8px;
 }
 
+.image-with-info-boxes__content-right .info-box h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
 .image-with-info-boxes__content-right .info-box p {
 }
 
