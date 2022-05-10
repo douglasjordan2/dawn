@@ -21,3 +21,7 @@
   padding: 20px;
   border-radius: 50px;
 }
+
+.product-faqs .faq-accordion-content {
+  max-height: 0;
+}
