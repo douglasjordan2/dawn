@@ -10,7 +10,7 @@
         <button class="faq-accordion-toggle">
           {{ block.settings.question }}
         </button>
-        <div aria-expanded="false">
+        <div class="faq-accordion-content" aria-expanded="false">
           {{ block.settings.answer }}
         </div>
       </li>
@@ -22,7 +22,7 @@
 #product-faqs--{{ section.id }} {
   background-color: {{ section.settings.bg_color }};
 }
-#product-faqs--{{ section.id }} .faq-item {
+#product-faqs--{{ section.id }} .faq-item.active {
   background-color: {{ section.settings.faq_bg_color }}
 }
 </style>
