@@ -13,10 +13,9 @@
 }
 
 .image-with-info-boxes__content-right {
-  width: 59%;
 }
 
-.image-with-info-boxes-content-right .info-box {
+.image-with-info-boxes__content-right .info-box {
   border: 2px solid rgb(var(--color-base-accent-2));
   padding: 15px;
 }
