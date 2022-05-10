@@ -13,6 +13,8 @@
 }
 
 .image-with-info-boxes__content-right {
+  width: calc(99% - 320px);
+  max-width: 59%;
 }
 
 .image-with-info-boxes__content-right .info-box {
