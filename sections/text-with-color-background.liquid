@@ -12,6 +12,7 @@
 <style>
 #text-with-color-background--{{ section.id }} {
   background-color: {{ section.settings.bg_color }};
+  color: {{ section.settings.text_color }}
 }
 </style>
 
@@ -24,6 +25,11 @@
       "type": "color",
       "id": "bg_color",
       "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color"
     },
     {
       "type": "text",
