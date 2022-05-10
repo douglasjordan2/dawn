@@ -14,6 +14,7 @@
 
 .image-with-info-boxes__content-left {
   width: 39%;
+  max-height: 420px;
 }
 
 .image-with-info-boxes__content-left img {
