@@ -99,6 +99,25 @@
         "show_vendor": false
       }
     },
+    "165222042875b796c0": {
+      "type": "image-with-info-boxes",
+      "settings": {
+        "bg_color": "",
+        "heading": "Fiercely Formulated",
+        "sub_heading": "Efficacy is at the forefront of every product we create. With the help of world class chemists, we formulate our products with clinically proven ingredients at the perfect levels for results you can feel and see. No irritating alcohols or fragrance, no unnecessary fillers or fluff, just powerhouse actives at our core. Our formulas are clinically developed, dermatologist recommended, and skincare lover approved.",
+        "image": "shopify:\/\/shop_images\/img_5802-crop-1645207624345.webp",
+        "image_position": "right",
+        "box1_bgcolor": "#d6eff2",
+        "box1_heading": "15% L-ascorbic acid",
+        "box1_description": "This pure form of vitamin C is highly potent to provide age fighting benefits along with protection against environmental stress and helps to neutralize free radicals.",
+        "box2_bgcolor": "#e3f9c8",
+        "box2_heading": "Tocopheryl acetate",
+        "box2_description": "The antioxidant properties of this vitamin E acetate can help neutralize free radicals and aid in soothing inflammation.",
+        "box3_bgcolor": "#f6ffec",
+        "box3_heading": "0.5% Ferulic acid",
+        "box3_description": "This plant based antioxidant helps to neutralize free radicals which can cause aging effects on the skin. Ferulic acid pairs well with vitamins C and E to boost benefits and stability."
+      }
+    },
     "1652185123ce3a7af2": {
       "type": "apps",
       "blocks": {
@@ -122,6 +141,7 @@
     "1652185108d11d70a2",
     "1652188216e6d48907",
     "product-recommendations",
+    "165222042875b796c0",
     "1652185123ce3a7af2"
   ]
 }
