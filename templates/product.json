@@ -142,6 +142,42 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1652224102e06efc89": {
+      "type": "image-with-text",
+      "blocks": {
+        "1652224102de3a8f3f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Great Skincare, No Guilt"
+          }
+        },
+        "1652224102de3a8f3f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Markups in beauty are outrageous. We're working to change that by partnering with world class chemists and the best manufacturers (that make the prestige brands you know and love). We bring these fiercely formulated products directly to you - without the traditional hefty markup.<\/p>"
+          }
+        },
+        "1652224102de3a8f3f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "btn_size": "half"
+          }
+        }
+      },
+      "block_order": [
+        "1652224102de3a8f3f-0",
+        "1652224102de3a8f3f-1",
+        "1652224102de3a8f3f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/markups-graph-1645035991794.webp",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
@@ -151,6 +187,7 @@
     "product-recommendations",
     "165222042875b796c0",
     "16522236435a4202b4",
-    "1652185123ce3a7af2"
+    "1652185123ce3a7af2",
+    "1652224102e06efc89"
   ]
 }
