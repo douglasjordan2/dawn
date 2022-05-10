@@ -25,6 +25,16 @@
   flex-direction: row-reverse;
 }
 
+@media(max-width: 767px) {
+  .image-with-info-boxes__content {
+    flex-direction: column;
+  }
+
+  .image-with-info-boxes__content--reverse {
+    flex-direction: column-reverse;
+  }
+}
+
 .image-with-info-boxes__content-right {
   max-width: calc(99% - 420px);
 }
