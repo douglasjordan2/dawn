@@ -8,15 +8,15 @@
 
   <div class="image-with-info-boxes__content{% if section.settings.image_position == 'left' %} image-with-info-boxes__content--reverse{% endif %}">
     <div class="image-with-info-boxes__content-right">
-      <div style="background-color: {{ section.settings.box1_bgcolor }}">
+      <div class="info-box" style="background-color: {{ section.settings.box1_bgcolor }}">
         <h3>{{ section.settings.box1_heading }}</h3>
         <p>{{ section.settings.box1_description }}</p>
       </div>
-      <div style="background-color: {{ section.settings.box2_bgcolor }}">
+      <div class="info-box" style="background-color: {{ section.settings.box2_bgcolor }}">
         <h3>{{ section.settings.box2_heading }}</h3>
         <p>{{ section.settings.box2_description }}</p>
       </div>
-      <div style="background-color: {{ section.settings.box3_bgcolor }}">
+      <div class="info-box" style="background-color: {{ section.settings.box3_bgcolor }}">
         <h3>{{ section.settings.box3_heading }}</h3>
         <p>{{ section.settings.box3_description }}</p>
       </div> 
