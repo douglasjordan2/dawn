@@ -15,6 +15,7 @@
 .image-with-cta__content h3 {
   font-size: 32px;
   text-align: center;
+  font-family: avenir-next,sans-serif;
 }
 
 @media(max-width: 600px) {
