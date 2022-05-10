@@ -16,6 +16,7 @@
   font-size: 32px;
   text-align: center;
   font-family: avenir-next,sans-serif;
+  font-weight: 700;
 }
 
 @media(max-width: 600px) {
