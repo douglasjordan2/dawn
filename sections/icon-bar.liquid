@@ -6,7 +6,7 @@
   <ul>
     {% for block in section.blocks %}
       <li>
-        <img src="{{ block.settings.icon_img }}">
+        <img src="{{ block.settings.icon_img | img_url: 'original' }}">
         <p>{{ block.settings.icon_description }}</p>
       </li>
     {% endfor %}
