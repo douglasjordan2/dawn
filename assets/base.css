@@ -1,5 +1,9 @@
 /* Color custom properties */
 
+* {
+  font-family: avenir-next,sans-serif;
+}
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
@@ -2091,3 +2095,4 @@ details-disclosure > details {
 .global__button--half {
   width: 50%;
 }
+
