@@ -27,4 +27,9 @@
 .product-faqs .faq-accordion-content {
   max-height: 0;
   overflow: hidden;
+  transition: max-height 300ms linear;
+}
+
+.product-faqs ul .faq-item.active .faq-accordion-content {
+  max-height: 1000px;
 }
