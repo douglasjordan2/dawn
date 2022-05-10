@@ -6,9 +6,13 @@
   <h3 class="h3">{{ section.settings.heading }}</h3>
   <ul>
     {% for block in section.blocks %}
-      <li>
-        <img src="{{ block.settings.icon_img | img_url: 'original' }}">
-        <p>{{ block.settings.icon_description }}</p>
+      <li class="faq-item">
+        <button class="faq-accordion-toggle">
+          {{ block.settings.question }}
+        </button>
+        <div aria-expanded="false">
+          {{ block.settings.answer }}
+        </div>
       </li>
     {% endfor %}
   </ul>
@@ -17,6 +21,9 @@
 <style>
 #product-faqs--{{ section.id }} {
   background-color: {{ section.settings.bg_color }};
+}
+#product-faqs--{{ section.id }} .faq-item {
+  background-color: {{ section.settings.faq_bg_color }}
 }
 </style>
 
