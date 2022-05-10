@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+.product-faqs ul {
+  list-style-type: none;
+}
+
 .product-faqs .faq-accordion-toggle {
   background-color: white;
   border: 2px solid black;
