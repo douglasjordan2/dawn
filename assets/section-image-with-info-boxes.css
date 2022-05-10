@@ -13,6 +13,7 @@
 }
 
 .image-with-info-boxes__content-right {
+  width: 59%;
 }
 
 .image-with-info-boxes-content-right .info-box {
@@ -21,10 +22,14 @@
 }
 
 .image-with-info-boxes__content-left {
+  width: 39%;
   max-width: 320px;
 }
 
 .image-with-info-boxes__content-left img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 
