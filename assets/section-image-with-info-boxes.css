@@ -45,6 +45,12 @@
   }
 }
 
+@media(max-width: 767px) {
+  .image-with-info-boxes__content-right {
+    max-width: 100%;
+  }
+}
+
 .image-with-info-boxes__content-right .info-box {
   border: 2px solid rgb(var(--color-base-text));
   padding: 15px;
@@ -67,6 +73,12 @@
 .image-with-info-boxes__content-left {
   max-width: 420px;
   margin-left: 50px;
+}
+
+@media(max-width: 767px) {
+  .image-with-info-boxes__content-left {
+    max-width: 100%;
+  }
 }
 
 .image-with-info-boxes__content-left img {
