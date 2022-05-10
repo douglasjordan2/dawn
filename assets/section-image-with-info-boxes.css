@@ -75,6 +75,11 @@
   margin-left: 50px;
 }
 
+.image-with-info-boxes__content--reverse .image-with-info-boxes__content-left {
+  margin-left: 0;
+  margin-right: 50px;
+}
+
 @media(max-width: 767px) {
   .image-with-info-boxes__content-left {
     max-width: 100%;
