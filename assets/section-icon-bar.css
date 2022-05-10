@@ -1,8 +1,8 @@
 .icon-bar {
   padding: 50px;
-  max-width: 1140px;
-  width: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .icon-bar ul {
@@ -10,6 +10,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  width: 100%;
+  max-width: 1140px;
 }
 
 .icon-bar ul li {
