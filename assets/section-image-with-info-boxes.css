@@ -14,7 +14,7 @@
 }
 
 .image-with-info-boxes__content-right {
-  max-width: calc(99% - 320px);
+  max-width: calc(99% - 420px);
 }
 
 .image-with-info-boxes__content-right .info-box {
@@ -25,7 +25,7 @@
 }
 
 .image-with-info-boxes__content-left {
-  max-width: 500px;
+  max-width: 420px;
   margin-left: 50px;
 }
 
