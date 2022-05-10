@@ -29,10 +29,6 @@
   .image-with-info-boxes__content {
     flex-direction: column;
   }
-
-  .image-with-info-boxes__content--reverse {
-    flex-direction: column-reverse;
-  }
 }
 
 .image-with-info-boxes__content-right {
