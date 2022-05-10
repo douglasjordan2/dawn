@@ -8,6 +8,7 @@
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -27,11 +28,11 @@
 .product-faqs .faq-accordion-content {
   max-height: 0;
   flex: 1;
+  align-self: baseline;
   overflow: hidden;
   transition: max-height 300ms linear;
 }
 
 .product-faqs ul .faq-item.active .faq-accordion-content {
-  flex-basis: 1;
   max-height: 1000px;
 }
