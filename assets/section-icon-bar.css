@@ -17,6 +17,7 @@
 @media(max-width: 767px) {
   .icon-bar ul {
     flex-direction: column;
+    align-items: center;
   } 
 }
 
