@@ -4,11 +4,15 @@
   align-items: center;
 }
 
-.image-with-cta h3 {
+.image-with-cta__content {
+  max-width: 1140px;
+}
+
+.image-with-cta__content h3 {
   font-size: 32px;
 }
 
-.image-with-cta img {
+.image-with-cta__content img {
   width: 100%;
   height: auto;
 }
