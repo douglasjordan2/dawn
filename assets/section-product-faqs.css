@@ -1,0 +1,11 @@
+.product-faqs {
+  padding: 50px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.product-faqs .faq-accordion-toggle {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50px;
+}
