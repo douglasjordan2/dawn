@@ -38,7 +38,11 @@ function productFaqToggle(el) {
   el.closest('ul').querySelectorAll('.faq-item').forEach(item => {
     const itemCheck = item.querySelector('.faq-accordion-toggle')
     if(el === itemCheck) {
-      item.classList.add('active')
+      if(item.classList.contains('active')) {
+        item.classList.remove('active')
+      } else {
+        item.classList.add('active')
+      }
     } else {
       if(item.classList.contains('active')) item.classList.remove('active')
     }
