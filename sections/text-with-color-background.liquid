@@ -3,8 +3,10 @@
 <noscript>{{ 'section-text-with-color-background.css' | asset_url | stylesheet_tag }}</noscript>
 
 <div id="text-with-color-background--{{ section.id }}" class="text-with-color-background">
-  <h3>{{ section.settings.heading }}</h3> 
-  <p>{{ section.settings.sub_heading }}</p>
+  <div class="text-with-color-background__content">
+    <h3>{{ section.settings.heading }}</h3> 
+    <p>{{ section.settings.sub_heading }}</p>
+  </div>
 </div>
 
 <style>
@@ -15,7 +17,7 @@
 
 {% schema %}
 {
-  "name": "Icon Bar",
+  "name": "Text with Color BG",
   "tag": "section",
   "settings": [
     {
@@ -37,7 +39,7 @@
   ],
   "presets": [
     {
-      "name": "Icon Bar"
+      "name": "Text with Color BG"
     }
   ]
 }
