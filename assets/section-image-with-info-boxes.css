@@ -16,6 +16,11 @@
   width: 59%;
 }
 
+.image-with-info-boxes-content-right .info-box {
+  border: 2px solid rgb(var(--color-base-accent-2));
+  padding: 15px;
+}
+
 .image-with-info-boxes__content-left {
   width: 39%;
   min-height: 420px;
