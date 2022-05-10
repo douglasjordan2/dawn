@@ -13,3 +13,7 @@
   font-size: 32px;
   font-weight: 700;
 }
+
+.text-with-color-background__content p {
+  font-size: 21px;
+}
