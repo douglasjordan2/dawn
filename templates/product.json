@@ -126,23 +126,6 @@
         "sub_heading": "If you don't absolutely love your Brandefy Skincall products, return them within 100 days for a full refund."
       }
     },
-    "1652185123ce3a7af2": {
-      "type": "apps",
-      "blocks": {
-        "e24a9f89-5c25-4132-8a7c-6e5dd45b71b9": {
-          "type": "shopify:\/\/apps\/yotpo-product-reviews-photos\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "e24a9f89-5c25-4132-8a7c-6e5dd45b71b9"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "1652224102e06efc89": {
       "type": "image-with-text",
       "blocks": {
@@ -178,6 +161,23 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
+    },
+    "1652185123ce3a7af2": {
+      "type": "apps",
+      "blocks": {
+        "e24a9f89-5c25-4132-8a7c-6e5dd45b71b9": {
+          "type": "shopify:\/\/apps\/yotpo-product-reviews-photos\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "e24a9f89-5c25-4132-8a7c-6e5dd45b71b9"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -187,7 +187,7 @@
     "product-recommendations",
     "165222042875b796c0",
     "16522236435a4202b4",
-    "1652185123ce3a7af2",
-    "1652224102e06efc89"
+    "1652224102e06efc89",
+    "1652185123ce3a7af2"
   ]
 }
