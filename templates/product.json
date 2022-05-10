@@ -122,6 +122,7 @@
       "type": "text-with-color-background",
       "settings": {
         "bg_color": "#3d8599",
+        "text_color": "#fff",
         "heading": "100 DAYS, 100% GUARANTEE",
         "sub_heading": "If you don't absolutely love your Brandefy Skincall products, return them within 100 days for a full refund."
       }
@@ -162,6 +163,58 @@
         "layout": "text_first"
       }
     },
+    "16522253813b4cb4e5": {
+      "type": "product-faqs",
+      "blocks": {
+        "d328fef6-f6ca-4b19-8a49-508e3acf85af": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I add this Vitamin C Serum into my routine",
+            "answer": "We recommend applying to clean skin after cleansing and\/or toning as your first serum. We prefer to add Vitamin C into our AM routine, but it can absolutely be used in the PM if you prefer! It can be layered with ingredients including, but not limited to, niacinamide, hyaluronic acid, and peptides and makes a great pair with our Daily Triple serum."
+          }
+        },
+        "7412de7f-5efa-47b7-a272-d456a51187a9": {
+          "type": "faq",
+          "settings": {
+            "question": "Is this Vitamin C Serum gluten-free?",
+            "answer": "Yes, our 15% Vitamin C Serum is gluten-free."
+          }
+        },
+        "9e58a598-7064-45ac-879a-6bc199eb7a87": {
+          "type": "faq",
+          "settings": {
+            "question": "Is this Vitamin C Serum right for me?",
+            "answer": "We formulated our 15% Vitamin C Serum to be suitable for all skin types with ingredients that everyone can benefit from. Ascorbic acid, vitamin E acetate, and ferulic acid help to fight aging, moisturize the skin, and repair the barrier. If you're not already using these ingredients, they will be a great boost to your routine especially if your skin is on the drier side!"
+          }
+        },
+        "43928574-7b08-4d17-9755-f8351f63583e": {
+          "type": "faq",
+          "settings": {
+            "question": "How could I prolong the life of my Vitamin C?",
+            "answer": "Ascorbic acid is an unstable ingredient that is really difficult to formulate with. The addition of antioxidants such as ferulic acid and vitamin E acetate help to stabilize the formula. You should store your serum in a cool, dark place and always make sure to limit oxygen exposure to ensure you get the longest life possible!"
+          }
+        },
+        "6b306417-b76c-43e0-b0a0-9dfc0c1e3955": {
+          "type": "faq",
+          "settings": {
+            "question": "Is the Vitamin C Serum non-comedogenic?",
+            "answer": "This is a super interesting topic! Ingredients that are comedogenic on their own aren’t necessarily pore clogging in a finished product. Conversely, a product with no pore clogging ingredients may still be comedogenic on the skin. With that being said, our 15% Vitamin C Serum does not contain ingredients with the potential of clogging pores!"
+          }
+        }
+      },
+      "block_order": [
+        "d328fef6-f6ca-4b19-8a49-508e3acf85af",
+        "7412de7f-5efa-47b7-a272-d456a51187a9",
+        "9e58a598-7064-45ac-879a-6bc199eb7a87",
+        "43928574-7b08-4d17-9755-f8351f63583e",
+        "6b306417-b76c-43e0-b0a0-9dfc0c1e3955"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "bg_color": "#e3f9c8",
+        "faq_bg_color": "#ffcab3"
+      }
+    },
     "1652185123ce3a7af2": {
       "type": "apps",
       "blocks": {
@@ -188,6 +241,7 @@
     "165222042875b796c0",
     "16522236435a4202b4",
     "1652224102e06efc89",
+    "16522253813b4cb4e5",
     "1652185123ce3a7af2"
   ]
 }
