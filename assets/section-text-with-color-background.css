@@ -10,4 +10,6 @@
 
 .text-with-color-background__content h3 {
   color: inherit; 
+  font-size: 32px;
+  font-weight: 700;
 }
