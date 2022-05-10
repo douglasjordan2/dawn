@@ -17,6 +17,12 @@
   text-align: center;
 }
 
+@media(max-width: 600px) {
+  .image-with-cta__content h3 {
+    font-size: 24px;
+  }
+}
+
 .image-with-cta__content img {
   width: 100%;
   height: auto;
