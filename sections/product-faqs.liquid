@@ -16,8 +16,11 @@
 
 <div id="product-faqs--{{ section.id }}" class="product-faqs">
   <h3 class="h3">{{ section.settings.heading }}</h3>
-  {% for i in (1..last) %}
+  {% for i in (1..half) %}
     {{ i }}
+  {% endfor %}
+  {% for n in (half..section.blocks.size) %}
+    {{ n }}
   {% endfor %}
   <ul>
     {% for block in section.blocks %}
