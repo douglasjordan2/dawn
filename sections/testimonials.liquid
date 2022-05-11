@@ -27,12 +27,15 @@
 <script>
   new Splide('#testimonials--{{ section.id }}', {
     type: "loop",
-    perPage: 2,
+    perPage: 3,
     arrows: true,
     pagination: true,
     breakpoints: {
       767: {
         perPage: 1
+      },
+      1000: {
+        perPage: 2
       }
     }
   }).mount();
