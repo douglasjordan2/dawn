@@ -18,7 +18,7 @@
   <h3 class="h3">{{ section.settings.heading }}</h3>
   <div class="product-faqs__columns">
     <ul>
-      {% for col1_block in (1..half) %}
+      {% for col1_block in (0..half) %}
         <li class="faq-item">
           <button class="faq-accordion-toggle" onclick="productFaqToggle(this)">
             {{ section.blocks[col1_block].settings.question }}
