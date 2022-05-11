@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.testimonials li {
+.testimonials .testimonial {
   padding: 50px;
   border: 2px solid red;
 }
