@@ -9,12 +9,22 @@
   justify-content: space-between;
 }
 
+@media(max-width: 767px) {
+  .product-faqs__columns {
+    flex-direction: column;
+  }
+}
+
 .product-faqs ul {
   width: 49%;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+@media(max-width: 767px) {
+  width: 100%;
 }
 
 .product-faqs .faq-accordion-toggle {
