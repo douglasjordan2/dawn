@@ -4,19 +4,17 @@
 
 <div id="testimonials--{{ section.id }}" class="testimonials"> 
   <div class="splide__track">
-    <div class="splide__list">
-      <ul class="splide__slide">
-        {% for block in section.blocks %}
-          <li class="splide__slide">
-            <img src="{{ block.settings.testimonial_img | img_url: 'original' }}">
-            <button class="global__button">
-              <a href="{{ block.settings.btn_link }}">{{ block.settings.btn_text }}</a>
-            </button>
-            <p>{{ block.settings.testimonial_text }}</p>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
+    <ul class="splide__list">
+      {% for block in section.blocks %}
+        <li class="splide__slide">
+          <img src="{{ block.settings.testimonial_img | img_url: 'original' }}">
+          <button class="global__button">
+            <a href="{{ block.settings.btn_link }}">{{ block.settings.btn_text }}</a>
+          </button>
+          <p>{{ block.settings.testimonial_text }}</p>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
 
