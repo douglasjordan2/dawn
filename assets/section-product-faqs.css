@@ -48,6 +48,7 @@
   padding: 20px;
   border-radius: 50px;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .product-faqs .faq-accordion-content {
@@ -55,8 +56,4 @@
   flex: 1;
   align-self: baseline;
   overflow: hidden;
-}
-
-.product-faqs .faq-accordion-content p {
-  padding: 20px 0;
 }
