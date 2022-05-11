@@ -16,7 +16,7 @@
 <noscript>{{ 'section-product-faqs.css' | asset_url | stylesheet_tag }}</noscript>
 
 <div id="product-faqs--{{ section.id }}" class="product-faqs">
-  <h3 class="h3">{{ section.settings.heading }}</h3>
+  <h3>{{ section.settings.heading }}</h3>
   <div class="product-faqs__columns">
     <ul>
       {% for col1_block in (0..half) %}
