@@ -57,7 +57,7 @@
 <script>
   function productFaqToggle(el) {
     const content = el.parentNode.querySelector('.faq-accordion-content') 
-    console.log(content.getAttribute('aria-expanded'))
+    console.log(content.getAttribute('aria-expanded') === true)
     if(content.getAttribute('aria-expanded') === true) {
       content.style.maxHeight = '0px'
       content.setAttribute('aria-expanded', false)
