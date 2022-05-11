@@ -25,7 +25,8 @@
 </div>
 
 <div class="testimonial-lightbox" style="display: none;">
-  <span class="testimonial-lightbox--close">&times;</span>
+  <span class="testimonial-lightbox--close" onclick="closeLightbox()">&times;</span>
+  <div class="testimonial-lightbox-content"></div>
 </div>
 
 <style>
@@ -47,6 +48,7 @@
 
     el.src = src
     lightbox.appendChild(el)
+    lightbox.style.display = 'flex'
   }
 </script>
 
