@@ -43,9 +43,9 @@
       el.src = src
     } else {
       el = document.createElement('video')
-      el.setAttribute('loop')
-      el.setAttribute('playsinline')
-      el.setAttribute('autoplay')
+      el.setAttribute('loop', true)
+      el.setAttribute('playsinline', true)
+      el.setAttribute('autoplay', true)
       const source = document.createElement('source')
       source.src = src
       el.appendChild(source)
