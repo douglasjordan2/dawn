@@ -35,16 +35,18 @@ function changeProductTab(el) {
 }
 
 function productFaqToggle(el) {
+  if(el.parentNode.classList.contains('active')) {
+    el.parentNode.classList.remove('active') 
+    return
+  }
+
   el.closest('ul').querySelectorAll('.faq-item').forEach(item => {
-    const itemCheck = item.querySelector('.faq-accordion-toggle')
-    if(el === itemCheck) {
-      if(item.classList.contains('active')) {
-        item.classList.remove('active')
-      } else {
-        item.classList.add('active')
-      }
-    } else {
-      if(item.classList.contains('active')) item.classList.remove('active')
+    item.classList.remove('active')
+  }
+   
+  el.closest('ul').querySelectorAll('.faq-item').forEach(item => {
+    if(el === item.querySelector('.faq-accordion-toggle')) {
+      item.classList.add('active')
     }
   })
 }
