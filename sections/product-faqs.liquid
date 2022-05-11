@@ -6,6 +6,8 @@
   else
     assign half = section.blocks.size | divide_by: 2
   endif
+
+  assign second_col_start = half | plus: 1
 %}
 
 {{ half }}
@@ -19,7 +21,7 @@
   {% for i in (1..half) %}
     {{ i }}
   {% endfor %}
-  {% for n in (half..section.blocks.size) %}
+  {% for n in (second_col_start..section.blocks.size) %}
     {{ n }}
   {% endfor %}
   <ul>
