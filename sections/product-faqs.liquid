@@ -1,8 +1,14 @@
 {% liquid 
   assign remainder = section.blocks.size | modulo: 2
+
+  if remainder == 1
+    assign half = section.blocks.size | plus: 1 | divide_by: 2
+  else
+    assign half = section.blocks.size | divide_by: 2
+  endif
 %}
 
-{{ remainder }}
+{{ half }}
 
 <link rel="stylesheet" href="{{ 'section-product-faqs.css' | asset_url }}" media="print" onload="this.media='all'">
 
