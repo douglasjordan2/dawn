@@ -57,3 +57,7 @@
   align-self: baseline;
   overflow: hidden;
 }
+
+.product-faqs .faq-accordion-content {
+  margin-top: 10px;
+}
