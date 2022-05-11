@@ -10,16 +10,12 @@
 }
 
 .product-faqs ul {
+  width: 49%;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.product-faqs ul li {
-  width: 49%;
-  flex-basis: 30%;
 }
 
 .product-faqs .faq-accordion-toggle {
