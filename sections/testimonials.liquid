@@ -1,0 +1,72 @@
+<link rel="stylesheet" href="{{ 'section-testimonials.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-testimonials.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div id="testimonials--{{ section.id }}" class="testimonials splide__track">
+  <div class="splide__list">
+    <ul class="splide__slide">
+      {% for block in section.blocks %}
+        <li class="splide__slide">
+          <img src="{{ block.settings.testimonial_img | img_url: 'original' }}">
+          <button class="global__button">
+            <a href="{{ block.settings.btn_link }}">{{ block.settings.btn_text }}</a>
+          </button>
+          <p>{{ block.settings.testimonial_text }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<style>
+#testimonials--{{ section.id }} {
+  background-color: {{ section.settings.bg_color }};
+}
+</style>
+
+{% schema %}
+{
+  "name": "Testimonials",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "testimonial_img",
+          "label": "Testimonial Image"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_link",
+          "label": "Button Link"
+        },
+        {
+          "type": "richtext",
+          "id": "testimonial_text",
+          "label": "Testimonial Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials"
+    }
+  ]
+}
+{% endschema %}
