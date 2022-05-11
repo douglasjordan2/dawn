@@ -2,24 +2,21 @@
 
 <noscript>{{ 'section-testimonials.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div id="testimonials--{{ section.id }}" class="testimonials splide__track">
-  <div class="splide__list">
-    <ul class="splide__slide">
-      {% for block in section.blocks %}
-        <li class="splide__slide">
-          {% if section.settings.testimonial_video %}
-            {% assign img = section.settings.testimonial_video.preview_image %}
-          {% else %}
-            {% assign img = block.settings.testimonial_img %}
-          {% endif %}
-          <img src="{{ img | img_url: 'original' }}">
-          <button class="global__button">
-            <a href="{{ block.settings.btn_link }}">{{ block.settings.btn_text }}</a>
-          </button>
-          <p>{{ block.settings.testimonial_text }}</p>
-        </li>
-      {% endfor %}
-    </ul>
+<div id="testimonials--{{ section.id }}" class="testimonials"> 
+  <div class="splide__track">
+    <div class="splide__list">
+      <ul class="splide__slide">
+        {% for block in section.blocks %}
+          <li class="splide__slide">
+            <img src="{{ block.settings.testimonial_img | img_url: 'original' }}">
+            <button class="global__button">
+              <a href="{{ block.settings.btn_link }}">{{ block.settings.btn_text }}</a>
+            </button>
+            <p>{{ block.settings.testimonial_text }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -28,6 +25,16 @@
   background-color: {{ section.settings.bg_color }};
 }
 </style>
+
+<script>
+  new Splide('#testimonials--{{ section.id }}', {
+    type: "loop",
+    perPage: 2,
+    arrows: true,
+    pagination: true
+  }).mount();
+</script>
+
 
 {% schema %}
 {
