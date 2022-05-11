@@ -2,8 +2,7 @@
   assign remainder = section.blocks.size | modulo: 2
 
   if remainder == 1
-    assign half = section.blocks.size | plus: 1
-    assign half = half | divide_by: 2
+    assign half = section.blocks.size | plus: 1 | divided_by: 2
   else
     assign half = section.blocks.size | divide_by: 2
   endif
