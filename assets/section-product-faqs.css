@@ -27,6 +27,9 @@
   .product-faqs ul {
     width: 100%;
   }
+  .product-faqs ul:first-child {
+    margin-bottom: 0;
+  }
 }
 
 .product-faqs .faq-accordion-toggle {
