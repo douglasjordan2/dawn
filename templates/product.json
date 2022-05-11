@@ -238,6 +238,7 @@
         "5d9b9dfe-eb5c-44ed-84b8-a3b54ae8c21b": {
           "type": "testimonial",
           "settings": {
+            "testimonial_img": "shopify:\/\/shop_images\/dr-greeney-video-cover-web-1645195518570.webp",
             "testimonial_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0531\/6699\/7692\/files\/Dr.-Greeney-tiktok-ad.mp4?v=1652305999",
             "btn_text": "@swolemd",
             "btn_link": "https:\/\/www.instagram.com\/p\/CTz6I8ulkr2\/",
