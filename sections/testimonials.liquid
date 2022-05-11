@@ -26,7 +26,6 @@
 
 <div class="testimonial-lightbox" style="display: none;">
   <span class="testimonial-lightbox--close" onclick="closeLightbox()">&times;</span>
-  <div class="testimonial-lightbox-content"></div>
 </div>
 
 <style>
@@ -37,7 +36,6 @@
 
 <script>
   function openLightbox(src, type) {
-    console.log(src)
     let el;
     if(type === 'image') {
       el = document.createElement('img')
@@ -52,9 +50,10 @@
       el.appendChild(source)
     }
 
-      el.setAttribute('style', 'height: 100%; width: auto;')
-    document.querySelector('.testimonial-lightbox-content').appendChild(el)
-    document.querySelector('.testimonial-lightbox').style.display = 'flex'
+    const lightbox = document.querySelector('.testimonial-lightbox') 
+    el.setAttribute('style', 'height: 100%; width: auto;')
+    lightbox.appendChild(el)
+    lightbox.style.display = 'flex'
   }
 </script>
 
