@@ -31,10 +31,5 @@
   flex: 1;
   align-self: baseline;
   overflow: hidden;
-  transition: max-height 300ms linear;
-}
-
-.product-faqs ul .faq-item.active .faq-accordion-content {
-  transition: max-height 300ms linear;
-  max-height: 1000px;
+  transition: max-height 0.3s ease;
 }
