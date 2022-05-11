@@ -57,6 +57,14 @@
     lightbox.appendChild(el)
     lightbox.style.display = 'flex'
   }
+
+  function closeLightbox() {
+    const lighbox = document.querySelector('.testimonial-lightbox')
+    const removeEl = document.querySelector('.testimonial-lightbox-content')
+
+    lightbox.removeChild(removeEl)
+    lightbox.style.display = 'none'
+  }
 </script>
 
 <script>
