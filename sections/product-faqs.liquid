@@ -57,13 +57,15 @@
 <script>
   function productFaqToggle(el) {
     if(el.parentNode.classList.contains('active')) {
-      el.parentNode.classList.remove('active') 
+      item.querySelector('.faq-accordion-content').style.maxHeight = '0'
+      el.style.backgroundColor = "#fff"
       return
     }
 
     el.closest('ul').querySelectorAll('.faq-item').forEach(item => {
       if(el === item.querySelector('.faq-accordion-toggle')) {
-        item.classList.add('active')
+        item.querySelector('.faq-accordion-content').style.maxHeight = '1000px'
+        el.style.backgroundColor = "{{ section.settings.faq_bg_color }}"
       }
     })
   }
