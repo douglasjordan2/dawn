@@ -27,8 +27,13 @@
   .product-faqs ul {
     width: 100%;
   }
+
   .product-faqs ul:first-child {
     margin-bottom: 0;
+  }
+
+  .product-faqs ul:last-child {
+    margin-top: 0;
   }
 }
 
