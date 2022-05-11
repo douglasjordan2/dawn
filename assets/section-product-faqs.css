@@ -51,7 +51,7 @@
 }
 
 .product-faqs .faq-accordion-content {
-  max-height: 0;
+  max-height: -20px;
   flex: 1;
   align-self: baseline;
   overflow: hidden;
