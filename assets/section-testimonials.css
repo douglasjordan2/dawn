@@ -12,6 +12,7 @@
   width: 100%;
   object-fit: cover;
   margin-bottom: 20px;
+  border-radius: 8px;
 }
 
 .testimonials .testimonial p {
