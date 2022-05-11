@@ -58,9 +58,10 @@
   function productFaqToggle(el) {
     const content = el.parentNode.querySelector('.faq-accordion-content') 
     console.log(content.getAttribute('aria-expanded') == true)
-    if(content.getAttribute('aria-expanded') === true) {
+    if(el.hasAttribute('open')) {
       content.style.maxHeight = '0px'
       content.setAttribute('aria-expanded', false)
+      el.removeAttribute('open')
       el.style.backgroundColor = "#fff"
       return
     }
@@ -69,6 +70,7 @@
       if(el === item.querySelector('.faq-accordion-toggle')) {
         content.style.maxHeight = '1000px'
         content.setAttribute('aria-expanded', true)
+        el.setAttribute('open', true)
         el.style.backgroundColor = "{{ section.settings.faq_bg_color }}"
       }
     })
