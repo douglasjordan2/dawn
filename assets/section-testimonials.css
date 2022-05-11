@@ -1,10 +1,11 @@
 .testimonials {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 25px;
 }
 
 .testimonials .testimonial {
-  padding: 50px;
+  padding: 25px;
 }
 
 .testimonials .testimonial img {
