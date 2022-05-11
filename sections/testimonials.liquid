@@ -7,7 +7,13 @@
     <ul class="splide__list">
       {% for block in section.blocks %}
         <li class="splide__slide testimonial">
-          <img src="{{ block.settings.testimonial_img | img_url: 'original' }}">
+          {% assign lightbox_src = block.settings.testimonial_image | img_url %}
+          {% assign type = 'image' %}
+          {% if block.settings.testimonial_video != blank %}
+            {% assign lightbox_src = block.settings.testimonial_video %}
+            {% assign type = 'video' %}
+          {% endif %}
+          <img onclick="openLightbox('{{ lightbox_src }}', '{{ type }}')" src="{{ block.settings.testimonial_img | img_url: 'original' }}">
           <button class="global__button">
             <a href="{{ block.settings.btn_link }}">{{ block.settings.btn_text }}</a>
           </button>
@@ -25,6 +31,12 @@
 </style>
 
 <script>
+  function openLightbox(src, type) {
+    console.log(src, type)
+  }
+</script>
+
+<script>
   new Splide('#testimonials--{{ section.id }}', {
     type: "loop",
     perPage: 3,
@@ -40,7 +52,6 @@
     }
   }).mount();
 </script>
-
 
 {% schema %}
 {
