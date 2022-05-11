@@ -29,7 +29,12 @@
     type: "loop",
     perPage: 2,
     arrows: true,
-    pagination: true
+    pagination: true,
+    breakpoints: {
+      767: {
+        perPage: 1
+      }
+    }
   }).mount();
 </script>
 
