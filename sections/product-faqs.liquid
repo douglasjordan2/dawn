@@ -24,7 +24,7 @@
           <button class="faq-accordion-toggle" onclick="productFaqToggle(this)">
             {{ section.blocks[col1_block].settings.question }}
           </button>
-          <div class="faq-accordion-content" aria-expanded="false">
+          <div class="faq-accordion-content" aria-expanded="false" style="transition: max-height 0.5s ease;">
             {{ section.blocks[col1_block].settings.answer }}
           </div>
         </li>
@@ -36,7 +36,7 @@
           <button class="faq-accordion-toggle" onclick="productFaqToggle(this)">
             {{ section.blocks[col2_block].settings.question }}
           </button>
-          <div class="faq-accordion-content" aria-expanded="false">
+          <div class="faq-accordion-content" aria-expanded="false" style="transition: max-height 0.5s ease;">
             {{ section.blocks[col2_block].settings.answer }}
           </div>
         </li>
