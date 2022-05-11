@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 
-.proudct-faqs__columns {
+.product-faqs__columns {
   display: flex;
   justify-content: space-between;
 }
