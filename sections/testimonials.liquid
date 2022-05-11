@@ -24,6 +24,10 @@
   </div>
 </div>
 
+<div class="testimonial-lightbox">
+  <span class="testimonial-lightbox--close">&times;</span>
+</div>
+
 <style>
 #testimonials--{{ section.id }} {
   background-color: {{ section.settings.bg_color }};
@@ -32,7 +36,17 @@
 
 <script>
   function openLightbox(src, type) {
-    console.log(src, type)
+    const lightbox = document.querySelector('.testimonial-lightbox')
+    let el;
+
+    if(type === 'image') {
+      el = document.createElement('img')
+    } else {
+      el = document.createElement('video')
+    }
+
+    el.src = src
+    lightbox.appendChild(el)
   }
 </script>
 
