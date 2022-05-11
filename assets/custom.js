@@ -42,7 +42,7 @@ function productFaqToggle(el) {
 
   el.closest('ul').querySelectorAll('.faq-item').forEach(item => {
     item.classList.remove('active')
-  }
+  })
    
   el.closest('ul').querySelectorAll('.faq-item').forEach(item => {
     if(el === item.querySelector('.faq-accordion-toggle')) {
