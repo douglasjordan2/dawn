@@ -7,7 +7,12 @@
     <ul class="splide__slide">
       {% for block in section.blocks %}
         <li class="splide__slide">
-          <img src="{{ block.settings.testimonial_img | img_url: 'original' }}">
+          {% if section.settings.testimonial_video %}
+            {% assign img = section.settings.testimonial_video.preview_image %}
+          {% else %}
+            {% assign img = block.settings.testimonial_img %}
+          {% endif %}
+          <img src="{{ img | img_url: 'original' }}">
           <button class="global__button">
             <a href="{{ block.settings.btn_link }}">{{ block.settings.btn_text }}</a>
           </button>
