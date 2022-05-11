@@ -122,7 +122,7 @@
       "type": "text-with-color-background",
       "settings": {
         "bg_color": "#3d8599",
-        "text_color": "#fff",
+        "text_color": "#ffffff",
         "heading": "100 DAYS, 100% GUARANTEE",
         "sub_heading": "If you don't absolutely love your Brandefy Skincall products, return them within 100 days for a full refund."
       }
@@ -231,6 +231,25 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1652305580fe1ad321": {
+      "type": "testimonials",
+      "blocks": {
+        "5d9b9dfe-eb5c-44ed-84b8-a3b54ae8c21b": {
+          "type": "testimonial",
+          "settings": {
+            "btn_text": "",
+            "btn_link": "",
+            "testimonial_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "5d9b9dfe-eb5c-44ed-84b8-a3b54ae8c21b"
+      ],
+      "settings": {
+        "bg_color": "#9381ff"
+      }
     }
   },
   "order": [
@@ -242,6 +261,7 @@
     "16522236435a4202b4",
     "1652224102e06efc89",
     "16522253813b4cb4e5",
-    "1652185123ce3a7af2"
+    "1652185123ce3a7af2",
+    "1652305580fe1ad321"
   ]
 }
