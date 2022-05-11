@@ -10,33 +10,38 @@
   assign second_col_start = half | plus: 1
 %}
 
-{{ half }}
-
 <link rel="stylesheet" href="{{ 'section-product-faqs.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'section-product-faqs.css' | asset_url | stylesheet_tag }}</noscript>
 
 <div id="product-faqs--{{ section.id }}" class="product-faqs">
   <h3 class="h3">{{ section.settings.heading }}</h3>
-  {% for i in (1..half) %}
-    {{ i }}
-  {% endfor %}
-  <p>split</p>
-  {% for n in (second_col_start..section.blocks.size) %}
-    {{ n }}
-  {% endfor %}
-  <ul>
-    {% for block in section.blocks %}
-      <li class="faq-item">
-        <button class="faq-accordion-toggle" onclick="productFaqToggle(this)">
-          {{ block.settings.question }}
-        </button>
-        <div class="faq-accordion-content" aria-expanded="false">
-          {{ block.settings.answer }}
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="product-faqs__columns">
+    <ul>
+      {% for col1_block in (1..half) %}
+        <li class="faq-item">
+          <button class="faq-accordion-toggle" onclick="productFaqToggle(this)">
+            {{ col1_block.settings.question }}
+          </button>
+          <div class="faq-accordion-content" aria-expanded="false">
+            {{ col1_block.settings.answer }}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+    <ul>
+      {% for col2_block in (second_col_start..section.blocks.size) %}
+        <li class="faq-item">
+          <button class="faq-accordion-toggle" onclick="productFaqToggle(this)">
+            {{ col2_block.settings.question }}
+          </button>
+          <div class="faq-accordion-content" aria-expanded="false">
+            {{ col2_block.settings.answer }}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 
 <style>
