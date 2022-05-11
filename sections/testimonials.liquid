@@ -6,7 +6,7 @@
   <div class="splide__track">
     <ul class="splide__list">
       {% for block in section.blocks %}
-        <li class="splide__slide">
+        <li class="splide__slide testimonial">
           <img src="{{ block.settings.testimonial_img | img_url: 'original' }}">
           <button class="global__button">
             <a href="{{ block.settings.btn_link }}">{{ block.settings.btn_text }}</a>
