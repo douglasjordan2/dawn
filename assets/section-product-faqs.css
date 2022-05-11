@@ -58,6 +58,6 @@
   overflow: hidden;
 }
 
-.product-faqs .faq-accordion-content {
+.product-faqs .faq-accordion-content p {
   margin-top: 10px;
 }
