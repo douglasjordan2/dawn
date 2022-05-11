@@ -8,18 +8,13 @@
   endif
 
   assign second_col_start = half | plus: 1
+  assign second_col_end = section.blocks.size | minus: 1
 %}
 
 <link rel="stylesheet" href="{{ 'section-product-faqs.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'section-product-faqs.css' | asset_url | stylesheet_tag }}</noscript>
 
-{% for col1_block in (0..half) %}
-  {{ col1_block }}
-{% endfor %}
-{% for col2_block in (second_col_start..section.blocks.size) %}
-  {{ col2_block }}
-{% endfor %}
 <div id="product-faqs--{{ section.id }}" class="product-faqs">
   <h3 class="h3">{{ section.settings.heading }}</h3>
   <div class="product-faqs__columns">
@@ -36,7 +31,7 @@
       {% endfor %}
     </ul>
     <ul>
-      {% for col2_block in (second_col_start..section.blocks.size) %}
+      {% for col2_block in (second_col_start..second_col_end) %}
         <li class="faq-item">
           <button class="faq-accordion-toggle" onclick="productFaqToggle(this)">
             {{ section.blocks[col2_block].settings.question }}
