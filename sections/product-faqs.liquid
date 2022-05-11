@@ -21,10 +21,10 @@
       {% for col1_block in (1..half) %}
         <li class="faq-item">
           <button class="faq-accordion-toggle" onclick="productFaqToggle(this)">
-            {{ col1_block.settings.question }}
+            {{ section.blocks[col1_block].settings.question }}
           </button>
           <div class="faq-accordion-content" aria-expanded="false">
-            {{ col1_block.settings.answer }}
+            {{ section.blocks[col1_block].settings.answer }}
           </div>
         </li>
       {% endfor %}
@@ -33,10 +33,10 @@
       {% for col2_block in (second_col_start..section.blocks.size) %}
         <li class="faq-item">
           <button class="faq-accordion-toggle" onclick="productFaqToggle(this)">
-            {{ col2_block.settings.question }}
+            {{ section.blocks[col2_block].settings.question }}
           </button>
           <div class="faq-accordion-content" aria-expanded="false">
-            {{ col2_block.settings.answer }}
+            {{ section.blocks[col2_block].settings.answer }}
           </div>
         </li>
       {% endfor %}
