@@ -37,7 +37,7 @@
 
 <script>
   function openLightbox(src, type) {
-    const lightbox = document.querySelector('.testimonial-lightbox')
+    const lightbox = 
     let el;
 
     if(type === 'image') {
@@ -47,8 +47,8 @@
     }
 
     el.src = src
-    lightbox.appendChild(el)
-    lightbox.style.display = 'flex'
+    document.querySelector('.testimonial-lightbox-content').appendChild(el)
+    document.querySelector('.testimonial-lightbox').style.display = 'flex'
   }
 </script>
 
