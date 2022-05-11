@@ -1,5 +1,5 @@
 {% liquid 
-  assign remainder = section.blocks | modulo: 2
+  assign remainder = section.blocks.size | modulo: 2
 %}
 
 {{ remainder }}
