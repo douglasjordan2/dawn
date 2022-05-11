@@ -33,22 +33,3 @@ function changeProductTab(el) {
     }
   })
 }
-
-function productFaqToggle(el) {
-  if(el.parentNode.classList.contains('active')) {
-    el.parentNode.classList.remove('active') 
-    return
-  }
-
-  el.closest('ul').querySelectorAll('.faq-item').forEach(item => {
-    item.classList.remove('active')
-  })
-  
-  setTimeout(() => {
-    el.closest('ul').querySelectorAll('.faq-item').forEach(item => {
-      if(el === item.querySelector('.faq-accordion-toggle')) {
-        item.classList.add('active')
-      }
-    })
-  }, 500)
-}
