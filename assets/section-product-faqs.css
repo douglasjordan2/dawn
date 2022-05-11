@@ -4,6 +4,11 @@
   margin: 0 auto;
 }
 
+.proudct-faqs__columns {
+  display: flex;
+  justify-content: space-between;
+}
+
 .product-faqs ul {
   list-style-type: none;
   display: flex;
