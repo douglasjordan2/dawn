@@ -57,7 +57,7 @@
 <script>
   function productFaqToggle(el) {
     if(el.parentNode.classList.contains('active')) {
-      item.querySelector('.faq-accordion-content').style.maxHeight = '0'
+      el.parentNode.querySelector('.faq-accordion-content').style.maxHeight = '0'
       el.style.backgroundColor = "#fff"
       return
     }
