@@ -2,8 +2,8 @@
   <ul>
     {% for block in section.blocks %}
       <li>
-        <img src="{{ block.settings.icon_img | img_url: 'original' }}">
-        <p>{{ block.settings.icon_description }}</p>
+        <h4>{{ block.settings.ingredient_name }}</h4>
+        <p>{{ block.settings.ingredient_description }}</p>
       </li>
     {% endfor %}
   </ul>
