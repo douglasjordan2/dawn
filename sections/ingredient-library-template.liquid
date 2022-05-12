@@ -1,3 +1,7 @@
+<link rel="stylesheet" href="{{ 'section-ingredient-library-letter.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-ingredient-library-letter.css' | asset_url | stylesheet_tag }}</noscript>
+
 <div class="ingredient-library-letter" id="{{ section.settings.letter }}">
   <ul>
     {% for block in section.blocks %}
