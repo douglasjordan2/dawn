@@ -98,6 +98,17 @@
       </div>
     </div>
   </a>
+  <div class="yotpo bottomLine"
+      data-appkey="YxRmtiAgJluVMO9F7zpAF5VNFcHUOGLSkkwMXNtf"
+      data-domain="{{shop.permanent_domain | escape }}"
+      data-product-id="{{ product.id }}"
+      data-product-models="{{ product.id }}"
+      data-name="{{ product.title | escape }}"
+      data-url="{{ shop.url }}{{ product.url }}"
+      data-image-url="{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}"
+      data-description="{{ product.description | escape }}"
+      data-bread-crumbs="{% for tag in product.tags %}{{ tag | escape }};{% endfor %}">
+  </div>
   {%- if product_card_product.selected_or_first_available_variant.available -%}
     <button class="global__button global__button--full" onclick="productCardATC({{ product_card_product.selected_or_first_available_variant.id }})">
       {{ 'products.product.add_to_cart' | t }}
