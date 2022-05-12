@@ -192,6 +192,8 @@
 
 .card-information__wrapper--homepage .price-item {
   color: white; 
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .card-information__wrapper > * {
