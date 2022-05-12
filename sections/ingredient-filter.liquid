@@ -7,11 +7,13 @@
 <div class="ingredient-filter">
   <ul>
     {% for letter in letters %}
-      <li>
-        <button class="global__button" onclick="scrollTo('#{{ letter }}')">
-          {{ letter | upcase }}
-        </button>
-      </li>
+      {% unless section.settings.exclude_letters contains letter %}
+        <li>
+          <button class="global__button" onclick="scrollTo('#{{ letter }}')">
+            {{ letter | upcase }}
+          </button>
+        </li>
+      {% endunless %}
     {% endfor %}
   </ul>
 </div>
