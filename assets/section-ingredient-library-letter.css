@@ -11,3 +11,8 @@
 .ingredient-library-letter ul {
   list-style-type: none;
 }
+
+.ingredient-library-letter ul li {
+  background-color: #fff8f2; 
+  padding: 30px;
+}
