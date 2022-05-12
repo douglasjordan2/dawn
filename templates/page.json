@@ -8,7 +8,8 @@
     "16523934385755b05f": {
       "type": "ingredient-filter",
       "settings": {
-        "bg_color": ""
+        "bg_color": "#e3f9c8",
+        "exclude_letters": ""
       }
     },
     "16523919474ad10ede": {
