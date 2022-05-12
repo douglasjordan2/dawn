@@ -196,7 +196,7 @@
   font-weight: normal;
 }
 
-.card-information__wrapper--homepage+.global__button {
+.global__button--homepage {
   margin-top: 20px;
 }
 
