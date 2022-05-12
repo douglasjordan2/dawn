@@ -1,3 +1,7 @@
+.ingredient-filter {
+  padding: 30px 0;  
+}
+
 .ingredient-filter ul {
   list-style-type: none;
   display: flex;
