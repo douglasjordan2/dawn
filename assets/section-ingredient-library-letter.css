@@ -12,6 +12,7 @@
 .ingredient-library-letter ul {
   list-style-type: none;
   padding: 0;
+  padding: 50px;
 }
 
 .ingredient-library-letter ul li {
