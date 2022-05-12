@@ -5,103 +5,103 @@
       "settings": {
       }
     },
-    "16523630029be9973b": {
-      "type": "ingredient-library-template",
+    "16523919474ad10ede": {
+      "type": "ingredient-library-letter",
       "blocks": {
-        "1ac4aff3-4a80-4846-94cf-b0d1f465eaf6": {
+        "7d5af727-189f-49aa-82e9-56f9ac5fdcdc": {
           "type": "ingredient",
           "settings": {
             "ingredient_name": "A ingredient 1",
-            "ingredient_description": "ingredients that start with A go here"
+            "ingredient_description": "ingredient info goes here"
           }
         },
-        "a47c1b57-1f8b-4b2e-942b-20f3a9470c34": {
+        "696ab1ce-0f22-4d3d-ad6c-64ccc5590ca9": {
           "type": "ingredient",
           "settings": {
             "ingredient_name": "A ingredient 2",
-            "ingredient_description": "ingredients that start with A go here"
+            "ingredient_description": "ingredient info goes here"
           }
         },
-        "0dd4686c-327f-4774-a07f-d667f27694c3": {
+        "c717c673-0bfc-4386-b33f-a11e4643d68d": {
           "type": "ingredient",
           "settings": {
             "ingredient_name": "A ingredient 3",
-            "ingredient_description": "ingredients that start with A go here"
+            "ingredient_description": "ingredient info goes here"
           }
         }
       },
       "block_order": [
-        "1ac4aff3-4a80-4846-94cf-b0d1f465eaf6",
-        "a47c1b57-1f8b-4b2e-942b-20f3a9470c34",
-        "0dd4686c-327f-4774-a07f-d667f27694c3"
+        "7d5af727-189f-49aa-82e9-56f9ac5fdcdc",
+        "696ab1ce-0f22-4d3d-ad6c-64ccc5590ca9",
+        "c717c673-0bfc-4386-b33f-a11e4643d68d"
       ],
       "settings": {
         "letter": "A"
       }
     },
-    "165236302260b1f0bb": {
-      "type": "ingredient-library-template",
+    "16523920097269840b": {
+      "type": "ingredient-library-letter",
       "blocks": {
-        "20d18f54-1979-4250-983e-9c3149e0875a": {
+        "ba448488-a39e-46dd-a1dc-366f24576a32": {
           "type": "ingredient",
           "settings": {
             "ingredient_name": "B ingredient 1",
-            "ingredient_description": "ingredients that start with B go here"
+            "ingredient_description": "ingredient info goes here"
           }
         },
-        "0cfc4714-4172-4609-8d61-ca53dc9752d7": {
+        "2f497ae1-85c6-47aa-b858-42c58f366e49": {
           "type": "ingredient",
           "settings": {
             "ingredient_name": "B ingredient 2",
-            "ingredient_description": "ingredients that start with B go here"
+            "ingredient_description": "ingredient info goes here"
           }
         },
-        "137a3f08-63a9-4e5c-bccd-35537767eef2": {
+        "8d35e03e-fd2d-4707-910a-526c6f51c66e": {
           "type": "ingredient",
           "settings": {
             "ingredient_name": "B ingredient 3",
-            "ingredient_description": "ingredients that start with B go here"
+            "ingredient_description": "ingredient info goes here"
           }
         }
       },
       "block_order": [
-        "20d18f54-1979-4250-983e-9c3149e0875a",
-        "0cfc4714-4172-4609-8d61-ca53dc9752d7",
-        "137a3f08-63a9-4e5c-bccd-35537767eef2"
+        "ba448488-a39e-46dd-a1dc-366f24576a32",
+        "2f497ae1-85c6-47aa-b858-42c58f366e49",
+        "8d35e03e-fd2d-4707-910a-526c6f51c66e"
       ],
       "settings": {
         "letter": "B"
       }
     },
-    "1652363034d70b9e35": {
-      "type": "ingredient-library-template",
+    "16523920258e34c72e": {
+      "type": "ingredient-library-letter",
       "blocks": {
-        "b5cd82ed-1924-4033-8c05-e1258b37d2d4": {
+        "bfaf8458-e07d-4f6c-9748-4a37a59bdd1b": {
           "type": "ingredient",
           "settings": {
             "ingredient_name": "C ingredient 1",
-            "ingredient_description": "ingredients that start with C go here"
+            "ingredient_description": "ingredient info goes here"
           }
         },
-        "12d23500-cbe5-4dc6-8572-b06dae841272": {
+        "4131dd20-a0f7-4f8e-9618-9d1f0c2c1d98": {
           "type": "ingredient",
           "settings": {
             "ingredient_name": "C ingredient 2",
-            "ingredient_description": "ingredients that start with C go here"
+            "ingredient_description": "ingredient info goes here"
           }
         },
-        "2c858a5d-6be4-4aef-8c9a-57f4bed010a7": {
+        "9b85de49-298e-4982-b685-5b34800bd00a": {
           "type": "ingredient",
           "settings": {
             "ingredient_name": "C ingredient 3",
-            "ingredient_description": "ingredients that start with C go here"
+            "ingredient_description": "ingredient info goes here"
           }
         }
       },
       "block_order": [
-        "b5cd82ed-1924-4033-8c05-e1258b37d2d4",
-        "12d23500-cbe5-4dc6-8572-b06dae841272",
-        "2c858a5d-6be4-4aef-8c9a-57f4bed010a7"
+        "bfaf8458-e07d-4f6c-9748-4a37a59bdd1b",
+        "4131dd20-a0f7-4f8e-9618-9d1f0c2c1d98",
+        "9b85de49-298e-4982-b685-5b34800bd00a"
       ],
       "settings": {
         "letter": "C"
@@ -110,8 +110,8 @@
   },
   "order": [
     "main",
-    "16523630029be9973b",
-    "165236302260b1f0bb",
-    "1652363034d70b9e35"
+    "16523919474ad10ede",
+    "16523920097269840b",
+    "16523920258e34c72e"
   ]
 }
