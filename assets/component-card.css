@@ -194,6 +194,9 @@
   color: white; 
   font-size: 16px;
   font-weight: normal;
+}
+
+.card-information__wrapper--homepage .price__regular {
   margin-bottom: 20px;
 }
 
