@@ -8,7 +8,7 @@
   <ul>
     {% for letter in letters %}
       <li>
-        <button class="global__buttton">
+        <button class="global__button" onclick="scrollTo('#{{ letter }}')">
           {{ letter | upcase }}
         </button>
       </li>
@@ -16,34 +16,21 @@
   </ul>
 </div>
 
+<script>
+  function scrollTo(anchor) {
+    console.log(anchor)
+  }
+</script>
+
 {% schema %}
 {
   "name": "Ingredient Ingredient",
   "tag": "section",
   "settings": [
     {
-      "type": "text",
-      "id": "letter",
-      "label": "Letter",
-      "info": "Alphabetically list ingredients so the navigation can link to specific letter."
-    }
-  ],
-  "blocks": [
-    {
-      "type": "ingredient",
-      "name": "ingredient",
-      "settings": [
-        {
-          "type": "text",
-          "id": "ingredient_name",
-          "label": "Ingredient Name"
-        },
-        {
-          "type": "text",
-          "id": "ingredient_description",
-          "label": "Ingredient Description"
-        }
-      ]
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
     }
   ],
   "presets": [
