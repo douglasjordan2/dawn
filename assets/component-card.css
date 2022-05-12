@@ -205,6 +205,12 @@
   letter-spacing: 0.07rem;
 }
 
+.card-information__wrapper .card-information__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .card-wrapper {
   color: inherit;
   display: flex;
