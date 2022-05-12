@@ -196,8 +196,8 @@
   font-weight: normal;
 }
 
-.card-information__wrapper--homepage .price__regular {
-  margin-bottom: 20px;
+.card-information__wrapper--homepage .global__button {
+  margin-top: 20px;
 }
 
 .card-information__wrapper > * {
