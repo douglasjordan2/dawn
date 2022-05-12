@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="{{ 'section-ingredient-filter.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-ingredient-filter.css' | asset_url | stylesheet_tag }}</noscript>
+
+{% assign letters = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z' | split: ',' %}
+
+<div class="ingredient-filter">
+  <ul>
+    {% for letter in letters %}
+      <li>
+        <button class="global__buttton">
+          {{ letter | upcase }}
+        </button>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% schema %}
+{
+  "name": "Ingredient Ingredient",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "letter",
+      "label": "Letter",
+      "info": "Alphabetically list ingredients so the navigation can link to specific letter."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "ingredient",
+      "name": "ingredient",
+      "settings": [
+        {
+          "type": "text",
+          "id": "ingredient_name",
+          "label": "Ingredient Name"
+        },
+        {
+          "type": "text",
+          "id": "ingredient_description",
+          "label": "Ingredient Description"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ingredient Ingredient"
+    }
+  ]
+}
+{% endschema %}
