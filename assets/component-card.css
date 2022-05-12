@@ -56,6 +56,11 @@
   position: relative;
 }
 
+.card--product__add-border {
+  border-radius: 8px;
+  border: 2px solid rgba(var(--color-accent-2));
+}
+
 .card--stretch {
   height: 100%;
 }
