@@ -1,10 +1,19 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "16523630029be9973b": {
+      "type": "ingredient-library-template",
+      "settings": {
+        "letter": "A"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16523630029be9973b"
   ]
 }
