@@ -6,3 +6,7 @@
   max-width: 1140px;
   margin: 0 auto;
 }
+
+.ingredient-filter button {
+  padding: 11px 25px;
+}
