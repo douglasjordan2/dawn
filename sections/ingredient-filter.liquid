@@ -9,7 +9,7 @@
     {% for letter in letters %}
       {% unless section.settings.exclude_letters contains letter %}
         <li>
-          <button class="global__button" onclick="scrollTo('#{{ letter }}')">
+          <button class="global__button" onclick="scrollToIngredient('#{{ letter }}')">
             {{ letter | upcase }}
           </button>
         </li>
@@ -19,8 +19,11 @@
 </div>
 
 <script>
-  function scrollTo(anchor) {
+  function scrollToIngredient(anchor) {
     console.log(anchor)
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
   }
 </script>
 
