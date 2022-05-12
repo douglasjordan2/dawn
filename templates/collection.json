@@ -10,6 +10,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "bg_color": "#e3f9c8",
         "products_per_page": 16,
         "image_ratio": "adapt",
         "show_secondary_image": false,
