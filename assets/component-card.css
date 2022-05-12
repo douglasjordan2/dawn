@@ -58,7 +58,7 @@
 
 .card--product__add-border {
   border-radius: 8px;
-  border: 2px solid rgb(var(--color-base-accent-2));
+  border: 2px solid rgb(var(--color-base-text));
 }
 
 .card--stretch {
