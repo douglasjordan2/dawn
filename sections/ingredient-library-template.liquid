@@ -1,4 +1,4 @@
-<div class="ingredient-library-letter" id="{{ letter }}">
+<div class="ingredient-library-letter" id="{{ section.settings.letter }}">
   <ul>
     {% for block in section.blocks %}
       <li>
@@ -14,6 +14,12 @@
   "name": "Ingredient Library Letter",
   "tag": "section",
   "settings": [
+    {
+      "type": "text",
+      "id": "letter",
+      "label": "Letter",
+      "info": "Alphabetically list ingredients so the navigation can link to specific letter."
+    }
   ],
   "blocks": [
     {
