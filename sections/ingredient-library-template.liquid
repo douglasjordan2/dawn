@@ -1,0 +1,42 @@
+<div class="ingredient-library-letter">
+  <ul>
+    {% for block in section.blocks %}
+      <li>
+        <img src="{{ block.settings.icon_img | img_url: 'original' }}">
+        <p>{{ block.settings.icon_description }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% schema %}
+{
+  "name": "Ingredient Library Letter",
+  "tag": "section",
+  "settings": [
+  ],
+  "blocks": [
+    {
+      "type": "ingredient",
+      "name": "ingredient",
+      "settings": [
+        {
+          "type": "text",
+          "id": "ingredient_name",
+          "label": "Ingredient Name"
+        },
+        {
+          "type": "text",
+          "id": "ingredient_description",
+          "label": "Ingredient Description"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ingredient Library Letter"
+    }
+  ]
+}
+{% endschema %}
