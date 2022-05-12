@@ -211,6 +211,10 @@
   text-decoration: none;
 }
 
+.card-wrapper .yotpo {
+  margin: 10px auto;
+}
+
 .card-wrapper .global__atc {
   margin-top: 20px;
 }
