@@ -203,7 +203,8 @@
 
 .card-wrapper {
   color: inherit;
-  display: block;
+  display: flex;
+  justify-content: space-between;
   position: relative;
   text-decoration: none;
 }
