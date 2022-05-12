@@ -10,6 +10,7 @@
 
 .ingredient-library-letter ul {
   list-style-type: none;
+  padding: 0;
 }
 
 .ingredient-library-letter ul li {
