@@ -97,18 +97,18 @@
         {% render 'price', product: product_card_product, price_class: '' %}
       </div>
     </div>
+    <div class="yotpo bottomLine"
+        data-appkey="YxRmtiAgJluVMO9F7zpAF5VNFcHUOGLSkkwMXNtf"
+        data-domain="{{shop.permanent_domain | escape }}"
+        data-product-id="{{ product_card_product.id }}"
+        data-product-models="{{ product_card_product.id }}"
+        data-name="{{ product_card_product.title | escape }}"
+        data-url="{{ shop.url }}{{ product_card_product.url }}"
+        data-image-url="{{ product_card_product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}"
+        data-description="{{ product_card_product.description | escape }}"
+        data-bread-crumbs="{% for tag in product_card_product.tags %}{{ tag | escape }};{% endfor %}">
+    </div>
   </a>
-  <div class="yotpo bottomLine"
-      data-appkey="YxRmtiAgJluVMO9F7zpAF5VNFcHUOGLSkkwMXNtf"
-      data-domain="{{shop.permanent_domain | escape }}"
-      data-product-id="{{ product_card_product.id }}"
-      data-product-models="{{ product_card_product.id }}"
-      data-name="{{ product_card_product.title | escape }}"
-      data-url="{{ shop.url }}{{ product_card_product.url }}"
-      data-image-url="{{ product_card_product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}"
-      data-description="{{ product_card_product.description | escape }}"
-      data-bread-crumbs="{% for tag in product_card_product.tags %}{{ tag | escape }};{% endfor %}">
-  </div>
   {%- if product_card_product.selected_or_first_available_variant.available -%}
     <button class="global__button global__button--full" onclick="productCardATC({{ product_card_product.selected_or_first_available_variant.id }})">
       {{ 'products.product.add_to_cart' | t }}
