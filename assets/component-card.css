@@ -213,33 +213,11 @@
 }
 
 @media screen and (min-width: 990px) {
-  .card-wrapper a {
-    height: 380px;
-  }
-
   .card-wrapper .global__atc {
     margin-top: 0; 
   }
 }
   
-@media screen and (min-width: 1030px) {
-  .card-wrapper a {
-    height: 400px;
-  }
-}
-
-@media screen and (min-width: 1090px) {
-  .card-wrapper a {
-    height: 420px;
-  }
-}
-
-@media screen and (min-width: 1130px) {
-  .card-wrapper a {
-    height: 450px;
-  }
-}
-
 .card-wrapper:focus-within .card {
   box-shadow: none;
 }
