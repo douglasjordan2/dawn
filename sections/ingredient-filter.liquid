@@ -4,7 +4,7 @@
 
 {% assign letters = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z' | split: ',' %}
 
-<div class="ingredient-filter">
+<div id="ingredient-filter--{{ section.id }}" class="ingredient-filter">
   <ul>
     {% for letter in letters %}
       {% unless section.settings.exclude_letters contains letter %}
@@ -17,6 +17,12 @@
     {% endfor %}
   </ul>
 </div>
+
+<style>
+#ingredient-filter--{{ section.id }} {
+  background-color: {{ section.settings.bg_color }}
+}
+</style>
 
 <script>
   function scrollToIngredient(anchor) {
