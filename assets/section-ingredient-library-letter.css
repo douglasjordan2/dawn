@@ -18,3 +18,7 @@
   padding: 30px;
   margin-bottom: 30px;
 }
+
+.ingredient-library-letter ul li h4 {
+  font-weight: bold;
+}
