@@ -2,7 +2,7 @@
 
 <noscript>{{ 'section-ingredient-library-letter.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="ingredient-library-letter" id="{{ section.settings.letter }}">
+<div class="ingredient-library-letter" id="{{ section.settings.letter | downcase }}">
   <h3>{{ section.settings.letter }}</h3>
   <ul>
     {% for block in section.blocks %}
