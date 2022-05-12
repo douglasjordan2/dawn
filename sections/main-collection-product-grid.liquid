@@ -493,6 +493,12 @@
   {%- endpaginate -%}
 </div>
 
+<style>
+#main-collection-filters[data-id="{{ section.id }}"] {
+  border: 2px solid red;
+}
+</style>
+
 {% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",
