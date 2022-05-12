@@ -5,6 +5,12 @@
       "settings": {
       }
     },
+    "16523934385755b05f": {
+      "type": "ingredient-filter",
+      "settings": {
+        "bg_color": ""
+      }
+    },
     "16523919474ad10ede": {
       "type": "ingredient-library-letter",
       "blocks": {
@@ -110,6 +116,7 @@
   },
   "order": [
     "main",
+    "16523934385755b05f",
     "16523919474ad10ede",
     "16523920097269840b",
     "16523920258e34c72e"
