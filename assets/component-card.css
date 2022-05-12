@@ -190,6 +190,10 @@
   min-height: 80px;
 }
 
+.card-information__wrapper--homepage .price-item {
+  color: white; 
+}
+
 .card-information__wrapper > * {
   line-height: 1.4;
   color: rgb(var(--color-foreground));
