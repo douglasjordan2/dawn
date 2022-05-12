@@ -1,6 +1,7 @@
 .ingredient-library-letter {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 50px;
 }
 
 .ingredient-library-letter h3 {
@@ -12,7 +13,6 @@
 .ingredient-library-letter ul {
   list-style-type: none;
   padding: 0;
-  padding: 50px;
 }
 
 .ingredient-library-letter ul li {
