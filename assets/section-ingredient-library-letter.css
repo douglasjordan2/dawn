@@ -2,3 +2,7 @@
   max-width: 1140px;
   margin: 0 auto;
 }
+
+.ingredient-library-letter ul {
+  list-style-type: none;
+}
