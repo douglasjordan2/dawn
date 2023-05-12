@@ -68,6 +68,14 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "1476460571416118356": {
+        "type": "shopify:\/\/apps\/email-pop-up-live-chat-sms\/blocks\/app-embed\/81f7f7b6-2c8e-4c5e-8541-1e81b7e0d680",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   }
 }
